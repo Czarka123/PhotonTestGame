@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private AudioListener playerAudio;
 
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -79,6 +80,7 @@ public class PlayerController : MonoBehaviour
                 animat.SetInteger("condition", 0);
                 moveDir = new Vector3(0, 0, 0);
             }
+         
         }
         rotation += Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rotation, 0);

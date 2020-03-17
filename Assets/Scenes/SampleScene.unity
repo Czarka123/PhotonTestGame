@@ -696,6 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd51f8c5f6d6597468c9f268400b32d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  createbot: 0
 --- !u!4 &1482190992
 Transform:
   m_ObjectHideFlags: 0

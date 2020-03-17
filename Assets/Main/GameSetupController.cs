@@ -5,6 +5,7 @@ using System.IO;
 using UnityEngine;
 public class GameSetupController : MonoBehaviour
 {
+    public bool createbot;
     // This script will be added to any multiplayer scene
     void Start()
     {
@@ -14,5 +15,11 @@ public class GameSetupController : MonoBehaviour
     {
         Debug.Log("Creating Player");
         PhotonNetwork.Instantiate("PlayerModel", Vector3.zero, Quaternion.identity);
+
+        if (createbot)
+        {
+            Debug.Log("Creating Bot");
+            PhotonNetwork.Instantiate("BotModel", Vector3.one, Quaternion.identity);
+        }
     }
 }

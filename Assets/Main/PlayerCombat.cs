@@ -8,11 +8,15 @@ public class PlayerCombat : MonoBehaviour
 
     PhotonView photonView;
     public Transform rayOrgin;
+    Animator animat;
+    [SerializeField]
+    private ParticleSystem FireFlash;
 
     // Start is called before the first frame update
     void Start()
     {
         photonView = GetComponent<PhotonView>();
+        animat = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,8 +26,9 @@ public class PlayerCombat : MonoBehaviour
         {
             return;
         }
-        if (Input.GetMouseButton(0))
+        if (Input.GetButtonDown("Fire1"))
         {
+            animat.SetInteger("condition", 0);
             photonView.RPC("RPC_Shooting", RpcTarget.All);
         }
         
@@ -34,6 +39,7 @@ public class PlayerCombat : MonoBehaviour
     void RPC_Shooting()
     {
         RaycastHit hit;
+        FireFlash.Play();
         if (Physics.Raycast(rayOrgin.position, rayOrgin.TransformDirection(Vector3.forward), out hit, 700))
         {
             Debug.DrawRay(rayOrgin.position, rayOrgin.TransformDirection(Vector3.forward) * hit.distance * 700, Color.red);
