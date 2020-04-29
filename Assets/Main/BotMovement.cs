@@ -34,8 +34,8 @@ public class BotMovement : MonoBehaviour
         Destroy(playerCamera);
         Destroy(playerAudio);
 
-        logfile = new System.IO.StreamWriter(@"C:\Users\Godzinski\gitRepos\PhotonTestGame\Assets\textLogFile.txt");
-
+        logfile = new System.IO.StreamWriter(@"C:\Users\Godzinski\gitRepos\PhotonTestGame\Assets\textLogFile2.txt");
+        logfile.WriteLine("Second test ");
         StartTime = Time.time;
     }
 
@@ -59,6 +59,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 90, 0));
+                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, -1);
@@ -75,6 +76,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 90, 0));
+                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -90,6 +92,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 30, 0));
+                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -105,6 +108,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, -45, 0));
+                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -120,6 +124,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 100, 0));
+                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -133,12 +138,25 @@ public class BotMovement : MonoBehaviour
         {
             animat.SetInteger("condition", 0);
             RPC_Shooting();
+            logfile.WriteLine("Bot is shouting " + "Time is " + Time.time);
             photonView.RPC("RPC_Shooting", RpcTarget.All);
 
         }
-        else if (Time.time > StartTime + 12 && Time.time < StartTime + 13)
+        else if (Time.time > StartTime + 12 && Time.time < StartTime + 14)
         {
+            animat.SetInteger("condition", 1);
+            moveDir = new Vector3(0, 0, 1);
+            moveDir *= speed;
+            moveDir = transform.TransformDirection(moveDir);
 
+            moveDir.y -= gravity * Time.deltaTime;
+            controller.Move(moveDir * Time.deltaTime);
+        }
+        else if (Time.time > StartTime + 14)
+        {
+            animat.SetInteger("condition", 0);
+            logfile.WriteLine("Bot test ended");
+            Debug.Log("Bot test ended");
         }
     }
 
@@ -171,7 +189,9 @@ public class BotMovement : MonoBehaviour
         {
             MovmentOrders();
         }
+        
         Debug.Log("Bot position is " + transform.position + "Time is " + Time.time);
         logfile.WriteLine("Bot position is " + transform.position + "Time is " + Time.time);
+        
     }
 }

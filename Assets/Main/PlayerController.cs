@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -48,6 +49,8 @@ public class PlayerController : MonoBehaviour
         {
             Movment();
         }
+
+
     }
 
     private void Movment()
@@ -80,7 +83,13 @@ public class PlayerController : MonoBehaviour
                 animat.SetInteger("condition", 0);
                 moveDir = new Vector3(0, 0, 0);
             }
-         
+            if (Input.GetKeyUp(KeyCode.B))
+            {
+                Debug.Log("Creating Bot");
+                PhotonNetwork.Instantiate("BotModel", Vector3.one, Quaternion.identity);
+            }
+
+
         }
         rotation += Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rotation, 0);
@@ -88,4 +97,5 @@ public class PlayerController : MonoBehaviour
         moveDir.y -= gravity * Time.deltaTime;
         controller.Move(moveDir * Time.deltaTime);
     }
+
 }
