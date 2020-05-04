@@ -35,5 +35,8 @@ MonoBehaviour:
   - Fire
   - RespawnSpaceship
   - RPC_Shooting
+  - CreateRedBot
+  - CreateBot
+  - RPC_getTime
   DisableAutoOpenWizard: 1
   ShowSettings: 0

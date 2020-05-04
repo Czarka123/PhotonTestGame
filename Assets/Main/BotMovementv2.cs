@@ -3,10 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BotMovement : MonoBehaviour
+public class BotMovementv2: MonoBehaviour
 {
     float speed = 4;
     float gravity = 9;
+
+    public delegate void SendMyTimeDelegate(string time,bool Isgreen);
+    public static event SendMyTimeDelegate SendMyTimeListners;
 
     CharacterController controller;
     Animator animat;
@@ -18,9 +21,13 @@ public class BotMovement : MonoBehaviour
     private AudioListener playerAudio;
     private float StartTime;
     private int rotationCounter = 0;
-    System.IO.StreamWriter logfile;
-    Vector3 moveDir = Vector3.zero;
 
+    private string otherBotTime;
+
+    //System.IO.StreamWriter logfile;
+    Vector3 moveDir = Vector3.zero;
+    [SerializeField]
+    private bool isBotGreen;
     [SerializeField]
     private ParticleSystem FireFlash;
 
@@ -34,13 +41,17 @@ public class BotMovement : MonoBehaviour
         Destroy(playerCamera);
         Destroy(playerAudio);
 
-        logfile = new System.IO.StreamWriter(@"C:\Users\Godzinski\gitRepos\PhotonTestGame\Assets\textLogFile2.txt");
-        logfile.WriteLine("Second test ");
+       // logfile = new System.IO.StreamWriter(@"C:\Users\Godzinski\gitRepos\PhotonTestGame\Assets\textLogFile2.txt");
+       // logfile.WriteLine("Second test ");
         StartTime = Time.time;
     }
 
     private void MovmentOrders()
     {
+
+        SendMyTimeListners.Invoke(Time.time.ToString(), isBotGreen);
+        photonView.RPC("RPC_getTime", RpcTarget.Others);
+       
 
         if (Time.time < StartTime + 3)
         {
@@ -59,7 +70,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 90, 0));
-                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
+               
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, -1);
@@ -76,7 +87,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 90, 0));
-                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
+          
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -92,7 +103,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 30, 0));
-                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
+         
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -108,7 +119,7 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, -45, 0));
-                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
+ 
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -124,7 +135,6 @@ public class BotMovement : MonoBehaviour
             {
                 rotationCounter++;
                 transform.Rotate(new Vector3(0, 100, 0));
-                logfile.WriteLine("Bot rotated " + "Time is " + Time.time);
             }
             animat.SetInteger("condition", 1);
             moveDir = new Vector3(0, 0, 1);
@@ -137,7 +147,6 @@ public class BotMovement : MonoBehaviour
         else if (Time.time > StartTime + 11 && Time.time < StartTime + 12)
         {
             animat.SetInteger("condition", 0);
-            logfile.WriteLine("Bot is shouting " + "Time is " + Time.time);
             photonView.RPC("RPC_Shooting", RpcTarget.All);
 
         }
@@ -154,10 +163,19 @@ public class BotMovement : MonoBehaviour
         else if (Time.time > StartTime + 14)
         {
             animat.SetInteger("condition", 0);
-            logfile.WriteLine("Bot test ended");
+
             Debug.Log("Bot test ended");
         }
     }
+
+    [PunRPC]
+    void RPC_getTime()
+    {
+        SendMyTimeListners.Invoke(Time.time.ToString(), isBotGreen);
+    }
+
+
+
 
     void FixedUpdate()
     {
@@ -165,9 +183,7 @@ public class BotMovement : MonoBehaviour
         {
             MovmentOrders();
         }
-        
-        Debug.Log("Bot position is " + transform.position + "Time is " + Time.time);
-        logfile.WriteLine("Bot position is " + transform.position + "Time is " + Time.time);
+      //  Debug.Log("Bot position is " + transform.position + "Time is " + Time.time);
         
     }
 }

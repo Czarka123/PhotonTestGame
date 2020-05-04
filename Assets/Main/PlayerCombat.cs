@@ -36,7 +36,7 @@ public class PlayerCombat : MonoBehaviour
 
 
     [PunRPC]
-    void RPC_Shooting()
+    void RPC_Shooting() //an error ..... -> needes an argument
     {
         RaycastHit hit;
         FireFlash.Play();

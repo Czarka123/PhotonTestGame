@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     float rotation = 0;
     float gravity = 9;
 
+
+
     Vector3 moveDir = Vector3.zero;
 
     CharacterController controller;
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
+
    
     void Update()
     {
@@ -49,6 +52,34 @@ public class PlayerController : MonoBehaviour
         {
             Movment();
         }
+     
+
+
+    }
+
+    private void MovesOutsidePlayerView()
+    {
+        if (Input.GetKeyUp(KeyCode.C))
+        {
+            Debug.Log("Creating REEEEEED BOT");
+            StartCoroutine(ExampleCoroutine());
+            //PhotonNetwork.Instantiate("RedServerClientTime", Vector3.one, Quaternion.identity);
+        }
+    }
+
+    [PunRPC]
+    void CreateBot(string botString)
+    {
+        PhotonNetwork.Instantiate(botString, Vector3.one, Quaternion.identity);
+    }
+
+
+    IEnumerator ExampleCoroutine()
+    {
+
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(1);
+        PhotonNetwork.Instantiate("RedServerClientTime", Vector3.one, Quaternion.identity);
 
 
     }
@@ -88,6 +119,15 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Creating Bot");
                 PhotonNetwork.Instantiate("BotModel", Vector3.one, Quaternion.identity);
             }
+            if (Input.GetKeyUp(KeyCode.C))
+            {
+                // Debug.Log("Creating Red bot");
+                PhotonNetwork.Instantiate("GreenLocalClientTime", Vector3.one, Quaternion.identity);
+
+                photonView.RPC("CreateBot", RpcTarget.Others, "RedServerClientTime");
+               
+            }
+
 
 
         }

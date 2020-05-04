@@ -1,711 +1,1436 @@
 Second test 
-Bot position is (1.0, 1.0, 1.1)Time is 21,84
-Bot position is (1.0, 1.0, 1.2)Time is 21,86
-Bot position is (1.0, 1.0, 1.2)Time is 21,88
-Bot position is (1.0, 1.0, 1.3)Time is 21,9
-Bot position is (1.0, 1.0, 1.4)Time is 21,92
-Bot position is (1.0, 1.0, 1.5)Time is 21,94
-Bot position is (1.0, 1.0, 1.6)Time is 21,96
-Bot position is (1.0, 1.0, 1.6)Time is 21,98
-Bot position is (1.0, 1.0, 1.7)Time is 22
-Bot position is (1.0, 1.0, 1.8)Time is 22,02
-Bot position is (1.0, 1.0, 1.9)Time is 22,04
-Bot position is (1.0, 1.0, 2.0)Time is 22,06
-Bot position is (1.0, 1.0, 2.0)Time is 22,08
-Bot position is (1.0, 0.9, 2.1)Time is 22,1
-Bot position is (1.0, 0.9, 2.2)Time is 22,12
-Bot position is (1.0, 0.9, 2.3)Time is 22,14
-Bot position is (1.0, 0.9, 2.4)Time is 22,16
-Bot position is (1.0, 0.9, 2.4)Time is 22,18
-Bot position is (1.0, 0.9, 2.5)Time is 22,2
-Bot position is (1.0, 0.9, 2.6)Time is 22,22
-Bot position is (1.0, 0.9, 2.7)Time is 22,24
-Bot position is (1.0, 0.9, 2.8)Time is 22,26
-Bot position is (1.0, 0.9, 2.8)Time is 22,28
-Bot position is (1.0, 0.9, 2.9)Time is 22,3
-Bot position is (1.0, 0.9, 3.0)Time is 22,32
-Bot position is (1.0, 0.9, 3.1)Time is 22,34
-Bot position is (1.0, 0.9, 3.2)Time is 22,36
-Bot position is (1.0, 0.9, 3.2)Time is 22,38
-Bot position is (1.0, 0.9, 3.3)Time is 22,4
-Bot position is (1.0, 0.9, 3.4)Time is 22,42
-Bot position is (1.0, 0.9, 3.5)Time is 22,44
-Bot position is (1.0, 0.9, 3.6)Time is 22,46
-Bot position is (1.0, 0.9, 3.6)Time is 22,48
-Bot position is (1.0, 0.9, 3.7)Time is 22,5
-Bot position is (1.0, 0.9, 3.8)Time is 22,52
-Bot position is (1.0, 0.9, 3.9)Time is 22,54
-Bot position is (1.0, 0.9, 4.0)Time is 22,56
-Bot position is (1.0, 0.9, 4.0)Time is 22,58
-Bot position is (1.0, 0.9, 4.1)Time is 22,6
-Bot position is (1.0, 0.9, 4.2)Time is 22,62
-Bot position is (1.0, 0.9, 4.3)Time is 22,64
-Bot position is (1.0, 0.8, 4.4)Time is 22,66
-Bot position is (1.0, 0.8, 4.4)Time is 22,68
-Bot position is (1.0, 0.8, 4.5)Time is 22,7
-Bot position is (1.0, 0.8, 4.6)Time is 22,72
-Bot position is (1.0, 0.8, 4.7)Time is 22,74
-Bot position is (1.0, 0.8, 4.8)Time is 22,76
-Bot position is (1.0, 0.8, 4.8)Time is 22,78
-Bot position is (1.0, 0.8, 4.9)Time is 22,8
-Bot position is (1.0, 0.8, 5.0)Time is 22,82
-Bot position is (1.0, 0.8, 5.1)Time is 22,84
-Bot position is (1.0, 0.8, 5.2)Time is 22,86
-Bot position is (1.0, 0.8, 5.2)Time is 22,88
-Bot position is (1.0, 0.8, 5.3)Time is 22,9
-Bot position is (1.0, 0.8, 5.4)Time is 22,92
-Bot position is (1.0, 0.8, 5.5)Time is 22,94
-Bot position is (1.0, 0.8, 5.6)Time is 22,96
-Bot position is (1.0, 0.8, 5.6)Time is 22,98
-Bot position is (1.0, 0.8, 5.7)Time is 23
-Bot position is (1.0, 0.8, 5.8)Time is 23,02
-Bot position is (1.0, 0.8, 5.9)Time is 23,04
-Bot position is (1.0, 0.8, 6.0)Time is 23,06
-Bot position is (1.0, 0.8, 6.0)Time is 23,08
-Bot position is (1.0, 0.8, 6.1)Time is 23,1
-Bot position is (1.0, 0.8, 6.2)Time is 23,12
-Bot position is (1.0, 0.8, 6.3)Time is 23,14
-Bot position is (1.0, 0.8, 6.4)Time is 23,16
-Bot position is (1.0, 0.8, 6.4)Time is 23,18
-Bot position is (1.0, 0.8, 6.5)Time is 23,2
-Bot position is (1.0, 0.7, 6.6)Time is 23,22
-Bot position is (1.0, 0.7, 6.7)Time is 23,24
-Bot position is (1.0, 0.7, 6.8)Time is 23,26
-Bot position is (1.0, 0.7, 6.8)Time is 23,28
-Bot position is (1.0, 0.7, 6.9)Time is 23,3
-Bot position is (1.0, 0.7, 7.0)Time is 23,32
-Bot position is (1.0, 0.7, 7.1)Time is 23,34
-Bot position is (1.0, 0.7, 7.2)Time is 23,36
-Bot position is (1.0, 0.7, 7.2)Time is 23,38
-Bot position is (1.0, 0.7, 7.3)Time is 23,4
-Bot position is (1.0, 0.7, 7.4)Time is 23,42
-Bot position is (1.0, 0.7, 7.5)Time is 23,44
-Bot position is (1.0, 0.7, 7.6)Time is 23,46
-Bot position is (1.0, 0.7, 7.6)Time is 23,48
-Bot position is (1.0, 0.7, 7.7)Time is 23,5
-Bot position is (1.0, 0.7, 7.8)Time is 23,52
-Bot position is (1.0, 0.7, 7.9)Time is 23,54
-Bot position is (1.0, 0.7, 8.0)Time is 23,56
-Bot position is (1.0, 0.7, 8.0)Time is 23,58
-Bot position is (1.0, 0.7, 8.1)Time is 23,6
-Bot position is (1.0, 0.7, 8.2)Time is 23,62
-Bot position is (1.0, 0.7, 8.3)Time is 23,64
-Bot position is (1.0, 0.7, 8.4)Time is 23,66
-Bot position is (1.0, 0.7, 8.4)Time is 23,68
-Bot position is (1.0, 0.7, 8.5)Time is 23,7
-Bot position is (1.0, 0.7, 8.6)Time is 23,72
-Bot position is (1.0, 0.7, 8.7)Time is 23,74
-Bot position is (1.0, 0.7, 8.8)Time is 23,76
-Bot position is (1.0, 0.6, 8.8)Time is 23,78
-Bot position is (1.0, 0.6, 8.9)Time is 23,8
-Bot position is (1.0, 0.6, 9.0)Time is 23,82
-Bot position is (1.0, 0.6, 9.1)Time is 23,84
-Bot position is (1.0, 0.6, 9.2)Time is 23,86
-Bot position is (1.0, 0.6, 9.2)Time is 23,88
-Bot position is (1.0, 0.6, 9.3)Time is 23,9
-Bot position is (1.0, 0.6, 9.4)Time is 23,92
-Bot position is (1.0, 0.6, 9.5)Time is 23,94
-Bot position is (1.0, 0.6, 9.6)Time is 23,96
-Bot position is (1.0, 0.6, 9.6)Time is 23,98
-Bot position is (1.0, 0.6, 9.7)Time is 24
-Bot position is (1.0, 0.6, 9.8)Time is 24,02
-Bot position is (1.0, 0.6, 9.9)Time is 24,04
-Bot position is (1.0, 0.6, 10.0)Time is 24,06
-Bot position is (1.0, 0.6, 10.0)Time is 24,08
-Bot position is (1.0, 0.6, 10.1)Time is 24,1
-Bot position is (1.0, 0.6, 10.2)Time is 24,12
-Bot position is (1.0, 0.6, 10.3)Time is 24,14
-Bot position is (1.0, 0.6, 10.4)Time is 24,16
-Bot position is (1.0, 0.6, 10.4)Time is 24,18
-Bot position is (1.0, 0.6, 10.5)Time is 24,2
-Bot position is (1.0, 0.6, 10.6)Time is 24,22
-Bot position is (1.0, 0.6, 10.7)Time is 24,24
-Bot position is (1.0, 0.6, 10.8)Time is 24,26
-Bot position is (1.0, 0.6, 10.8)Time is 24,28
-Bot position is (1.0, 0.6, 10.9)Time is 24,3
-Bot position is (1.0, 0.5, 11.0)Time is 24,32
-Bot position is (1.0, 0.5, 11.1)Time is 24,34
-Bot position is (1.0, 0.5, 11.2)Time is 24,36
-Bot position is (1.0, 0.5, 11.2)Time is 24,38
-Bot position is (1.0, 0.5, 11.3)Time is 24,4
-Bot position is (1.0, 0.5, 11.4)Time is 24,42
-Bot position is (1.0, 0.5, 11.5)Time is 24,44
-Bot position is (1.0, 0.5, 11.6)Time is 24,46
-Bot position is (1.0, 0.5, 11.6)Time is 24,48
-Bot position is (1.0, 0.5, 11.7)Time is 24,5
-Bot position is (1.0, 0.5, 11.8)Time is 24,52
-Bot position is (1.0, 0.5, 11.9)Time is 24,54
-Bot position is (1.0, 0.5, 12.0)Time is 24,56
-Bot position is (1.0, 0.5, 12.0)Time is 24,58
-Bot position is (1.0, 0.5, 12.1)Time is 24,6
-Bot position is (1.0, 0.5, 12.2)Time is 24,62
-Bot position is (1.0, 0.5, 12.3)Time is 24,64
-Bot position is (1.0, 0.5, 12.4)Time is 24,66
-Bot position is (1.0, 0.5, 12.4)Time is 24,68
-Bot position is (1.0, 0.5, 12.5)Time is 24,7
-Bot position is (1.0, 0.5, 12.6)Time is 24,72
-Bot position is (1.0, 0.5, 12.7)Time is 24,74
-Bot position is (1.0, 0.5, 12.8)Time is 24,76
-Bot position is (1.0, 0.5, 12.8)Time is 24,78
-Bot position is (1.0, 0.5, 12.9)Time is 24,8
-Bot position is (1.0, 0.5, 13.0)Time is 24,82
-Bot rotated Time is 24,84
-Bot position is (0.9, 0.5, 13.0)Time is 24,84
-Bot position is (0.8, 0.5, 13.0)Time is 24,86
-Bot position is (0.8, 0.4, 13.0)Time is 24,88
-Bot position is (0.7, 0.4, 13.0)Time is 24,9
-Bot position is (0.6, 0.4, 13.0)Time is 24,92
-Bot position is (0.5, 0.4, 13.0)Time is 24,94
-Bot position is (0.4, 0.4, 13.0)Time is 24,96
-Bot position is (0.4, 0.4, 13.0)Time is 24,98
-Bot position is (0.3, 0.4, 13.0)Time is 25
-Bot position is (0.2, 0.4, 13.0)Time is 25,02
-Bot position is (0.1, 0.4, 13.0)Time is 25,04
-Bot position is (0.0, 0.4, 13.0)Time is 25,06
-Bot position is (0.0, 0.4, 13.0)Time is 25,08
-Bot position is (-0.1, 0.4, 13.0)Time is 25,1
-Bot position is (-0.2, 0.4, 13.0)Time is 25,12
-Bot position is (-0.3, 0.4, 13.0)Time is 25,14
-Bot position is (-0.4, 0.4, 13.0)Time is 25,16
-Bot position is (-0.4, 0.4, 13.0)Time is 25,18
-Bot position is (-0.5, 0.4, 13.0)Time is 25,2
-Bot position is (-0.6, 0.4, 13.0)Time is 25,22
-Bot position is (-0.7, 0.4, 13.0)Time is 25,24
-Bot position is (-0.8, 0.4, 13.0)Time is 25,26
-Bot position is (-0.8, 0.4, 13.0)Time is 25,28
-Bot position is (-0.9, 0.4, 13.0)Time is 25,3
-Bot position is (-1.0, 0.4, 13.0)Time is 25,32
-Bot rotated Time is 25,34
-Bot position is (-1.0, 0.4, 12.9)Time is 25,34
-Bot position is (-1.0, 0.4, 12.8)Time is 25,36
-Bot position is (-1.0, 0.4, 12.8)Time is 25,38
-Bot position is (-1.0, 0.4, 12.7)Time is 25,4
-Bot position is (-1.0, 0.4, 12.6)Time is 25,42
-Bot position is (-1.0, 0.3, 12.5)Time is 25,44
-Bot position is (-1.0, 0.3, 12.4)Time is 25,46
-Bot position is (-1.0, 0.3, 12.4)Time is 25,48
-Bot position is (-1.0, 0.3, 12.3)Time is 25,5
-Bot position is (-1.0, 0.3, 12.2)Time is 25,52
-Bot position is (-1.0, 0.3, 12.1)Time is 25,54
-Bot position is (-1.0, 0.3, 12.0)Time is 25,56
-Bot position is (-1.0, 0.3, 12.0)Time is 25,58
-Bot position is (-1.0, 0.3, 11.9)Time is 25,6
-Bot position is (-1.0, 0.3, 11.8)Time is 25,62
-Bot position is (-1.0, 0.3, 11.7)Time is 25,64
-Bot position is (-1.0, 0.3, 11.6)Time is 25,66
-Bot position is (-1.0, 0.3, 11.6)Time is 25,68
-Bot position is (-1.0, 0.3, 11.5)Time is 25,7
-Bot position is (-1.0, 0.3, 11.4)Time is 25,72
-Bot position is (-1.0, 0.3, 11.3)Time is 25,74
-Bot position is (-1.0, 0.3, 11.2)Time is 25,76
-Bot position is (-1.0, 0.3, 11.2)Time is 25,78
-Bot position is (-1.0, 0.3, 11.1)Time is 25,8
-Bot position is (-1.0, 0.3, 11.0)Time is 25,82
-Bot position is (-1.0, 0.3, 10.9)Time is 25,84
-Bot position is (-1.0, 0.3, 10.8)Time is 25,86
-Bot position is (-1.0, 0.3, 10.8)Time is 25,88
-Bot position is (-1.0, 0.3, 10.7)Time is 25,9
-Bot position is (-1.0, 0.3, 10.6)Time is 25,92
-Bot position is (-1.0, 0.3, 10.5)Time is 25,94
-Bot position is (-1.0, 0.3, 10.4)Time is 25,96
-Bot position is (-1.0, 0.3, 10.4)Time is 25,98
-Bot position is (-1.0, 0.2, 10.3)Time is 26
-Bot position is (-1.0, 0.2, 10.2)Time is 26,02
-Bot position is (-1.0, 0.2, 10.1)Time is 26,04
-Bot position is (-1.0, 0.2, 10.0)Time is 26,06
-Bot position is (-1.0, 0.2, 10.0)Time is 26,08
-Bot position is (-1.0, 0.2, 9.9)Time is 26,1
-Bot position is (-1.0, 0.2, 9.8)Time is 26,12
-Bot position is (-1.0, 0.2, 9.7)Time is 26,14
-Bot position is (-1.0, 0.2, 9.6)Time is 26,16
-Bot position is (-1.0, 0.2, 9.6)Time is 26,18
-Bot position is (-1.0, 0.2, 9.5)Time is 26,2
-Bot position is (-1.0, 0.2, 9.4)Time is 26,22
-Bot position is (-1.0, 0.2, 9.3)Time is 26,24
-Bot position is (-1.0, 0.2, 9.2)Time is 26,26
-Bot position is (-1.0, 0.2, 9.2)Time is 26,28
-Bot position is (-1.0, 0.2, 9.1)Time is 26,3
-Bot position is (-1.0, 0.2, 9.0)Time is 26,32
-Bot position is (-1.0, 0.2, 8.9)Time is 26,34
-Bot position is (-1.0, 0.2, 8.8)Time is 26,36
-Bot position is (-1.0, 0.2, 8.8)Time is 26,38
-Bot position is (-1.0, 0.2, 8.7)Time is 26,4
-Bot position is (-1.0, 0.2, 8.6)Time is 26,42
-Bot position is (-1.0, 0.2, 8.5)Time is 26,44
-Bot position is (-1.0, 0.2, 8.4)Time is 26,46
-Bot position is (-1.0, 0.2, 8.4)Time is 26,48
-Bot position is (-1.0, 0.2, 8.3)Time is 26,5
-Bot position is (-1.0, 0.2, 8.2)Time is 26,52
-Bot position is (-1.0, 0.2, 8.1)Time is 26,54
-Bot position is (-1.0, 0.2, 8.0)Time is 26,56
-Bot position is (-1.0, 0.2, 8.0)Time is 26,58
-Bot position is (-1.0, 0.2, 7.9)Time is 26,6
-Bot position is (-1.0, 0.2, 7.8)Time is 26,62
-Bot position is (-1.0, 0.2, 7.7)Time is 26,64
-Bot position is (-1.0, 0.2, 7.6)Time is 26,66
-Bot position is (-1.0, 0.2, 7.6)Time is 26,68
-Bot position is (-1.0, 0.2, 7.5)Time is 26,7
-Bot position is (-1.0, 0.2, 7.4)Time is 26,72
-Bot position is (-1.0, 0.2, 7.3)Time is 26,74
-Bot position is (-1.0, 0.2, 7.2)Time is 26,76
-Bot position is (-1.0, 0.2, 7.2)Time is 26,78
-Bot position is (-1.0, 0.2, 7.1)Time is 26,8
-Bot position is (-1.0, 0.2, 7.0)Time is 26,82
-Bot position is (-1.0, 0.2, 6.9)Time is 26,84
-Bot position is (-1.0, 0.2, 6.8)Time is 26,86
-Bot position is (-1.0, 0.2, 6.8)Time is 26,88
-Bot position is (-1.0, 0.2, 6.7)Time is 26,9
-Bot position is (-1.0, 0.2, 6.6)Time is 26,92
-Bot position is (-1.0, 0.2, 6.5)Time is 26,94
-Bot position is (-1.0, 0.2, 6.4)Time is 26,96
-Bot position is (-1.0, 0.2, 6.4)Time is 26,98
-Bot position is (-1.0, 0.2, 6.3)Time is 27
-Bot position is (-1.0, 0.2, 6.2)Time is 27,02
-Bot position is (-1.0, 0.2, 6.1)Time is 27,04
-Bot position is (-1.0, 0.2, 6.0)Time is 27,06
-Bot position is (-1.0, 0.2, 6.0)Time is 27,08
-Bot position is (-1.0, 0.2, 5.9)Time is 27,1
-Bot position is (-1.0, 0.2, 5.8)Time is 27,12
-Bot position is (-1.0, 0.2, 5.7)Time is 27,14
-Bot position is (-1.0, 0.2, 5.6)Time is 27,16
-Bot position is (-1.0, 0.2, 5.6)Time is 27,18
-Bot position is (-1.0, 0.2, 5.5)Time is 27,2
-Bot position is (-1.0, 0.2, 5.4)Time is 27,22
-Bot position is (-1.0, 0.2, 5.3)Time is 27,24
-Bot position is (-1.0, 0.2, 5.2)Time is 27,26
-Bot position is (-1.0, 0.2, 5.2)Time is 27,28
-Bot position is (-1.0, 0.2, 5.1)Time is 27,3
-Bot position is (-1.0, 0.2, 5.0)Time is 27,32
-Bot position is (-1.0, 0.2, 4.9)Time is 27,34
-Bot position is (-1.0, 0.2, 4.8)Time is 27,36
-Bot position is (-1.0, 0.2, 4.8)Time is 27,38
-Bot position is (-1.0, 0.2, 4.7)Time is 27,4
-Bot position is (-1.0, 0.2, 4.6)Time is 27,42
-Bot position is (-1.0, 0.2, 4.5)Time is 27,44
-Bot position is (-1.0, 0.2, 4.4)Time is 27,46
-Bot position is (-1.0, 0.2, 4.4)Time is 27,48
-Bot position is (-1.0, 0.2, 4.3)Time is 27,5
-Bot position is (-1.0, 0.2, 4.2)Time is 27,52
-Bot position is (-1.0, 0.2, 4.1)Time is 27,54
-Bot position is (-1.0, 0.2, 4.0)Time is 27,56
-Bot position is (-1.0, 0.2, 4.0)Time is 27,58
-Bot position is (-1.0, 0.2, 3.9)Time is 27,6
-Bot position is (-1.0, 0.2, 3.8)Time is 27,62
-Bot position is (-1.0, 0.2, 3.7)Time is 27,64
-Bot position is (-1.0, 0.2, 3.6)Time is 27,66
-Bot position is (-1.0, 0.2, 3.6)Time is 27,68
-Bot position is (-1.0, 0.2, 3.5)Time is 27,7
-Bot position is (-1.0, 0.2, 3.4)Time is 27,72
-Bot position is (-1.0, 0.2, 3.3)Time is 27,74
-Bot position is (-1.0, 0.2, 3.2)Time is 27,76
-Bot position is (-1.0, 0.2, 3.2)Time is 27,78
-Bot position is (-1.0, 0.2, 3.1)Time is 27,8
-Bot position is (-1.0, 0.2, 3.0)Time is 27,82
-Bot position is (-1.0, 0.2, 2.9)Time is 27,84
-Bot position is (-1.0, 0.2, 2.8)Time is 27,86
-Bot position is (-1.0, 0.2, 2.8)Time is 27,88
-Bot position is (-1.0, 0.2, 2.7)Time is 27,9
-Bot position is (-1.0, 0.2, 2.6)Time is 27,92
-Bot position is (-1.0, 0.2, 2.5)Time is 27,94
-Bot position is (-1.0, 0.2, 2.4)Time is 27,96
-Bot position is (-1.0, 0.2, 2.4)Time is 27,98
-Bot position is (-1.0, 0.2, 2.3)Time is 28
-Bot position is (-1.0, 0.2, 2.2)Time is 28,02
-Bot position is (-1.0, 0.2, 2.1)Time is 28,04
-Bot position is (-1.0, 0.2, 2.0)Time is 28,06
-Bot position is (-1.0, 0.2, 2.0)Time is 28,08
-Bot position is (-1.0, 0.2, 1.9)Time is 28,1
-Bot position is (-1.0, 0.2, 1.8)Time is 28,12
-Bot position is (-1.0, 0.2, 1.7)Time is 28,14
-Bot position is (-1.0, 0.2, 1.6)Time is 28,16
-Bot position is (-1.0, 0.2, 1.6)Time is 28,18
-Bot position is (-1.0, 0.2, 1.5)Time is 28,2
-Bot position is (-1.0, 0.2, 1.4)Time is 28,22
-Bot position is (-1.0, 0.2, 1.3)Time is 28,24
-Bot position is (-1.0, 0.2, 1.2)Time is 28,26
-Bot position is (-1.0, 0.2, 1.2)Time is 28,28
-Bot position is (-1.0, 0.2, 1.1)Time is 28,3
-Bot position is (-1.0, 0.2, 1.0)Time is 28,32
-Bot position is (-1.0, 0.2, 0.9)Time is 28,34
-Bot position is (-1.0, 0.2, 0.8)Time is 28,36
-Bot position is (-1.0, 0.2, 0.8)Time is 28,38
-Bot position is (-1.0, 0.2, 0.7)Time is 28,4
-Bot position is (-1.0, 0.2, 0.6)Time is 28,42
-Bot position is (-1.0, 0.2, 0.5)Time is 28,44
-Bot position is (-1.0, 0.2, 0.4)Time is 28,46
-Bot position is (-1.0, 0.2, 0.4)Time is 28,48
-Bot position is (-1.0, 0.2, 0.3)Time is 28,5
-Bot position is (-1.0, 0.2, 0.2)Time is 28,52
-Bot position is (-1.0, 0.2, 0.1)Time is 28,54
-Bot position is (-1.0, 0.2, 0.0)Time is 28,56
-Bot position is (-1.0, 0.2, 0.0)Time is 28,58
-Bot position is (-1.0, 0.2, -0.1)Time is 28,6
-Bot position is (-1.0, 0.2, -0.2)Time is 28,62
-Bot position is (-1.0, 0.2, -0.3)Time is 28,64
-Bot position is (-1.0, 0.2, -0.4)Time is 28,66
-Bot position is (-1.0, 0.2, -0.4)Time is 28,68
-Bot position is (-1.0, 0.2, -0.5)Time is 28,7
-Bot position is (-1.0, 0.2, -0.6)Time is 28,72
-Bot position is (-1.0, 0.2, -0.7)Time is 28,74
-Bot position is (-1.0, 0.2, -0.8)Time is 28,76
-Bot position is (-1.0, 0.2, -0.8)Time is 28,78
-Bot position is (-1.0, 0.2, -0.9)Time is 28,8
-Bot position is (-1.0, 0.2, -1.0)Time is 28,82
-Bot rotated Time is 28,84
-Bot position is (-1.0, 0.2, -1.1)Time is 28,84
-Bot position is (-1.1, 0.2, -1.1)Time is 28,86
-Bot position is (-1.1, 0.2, -1.2)Time is 28,88
-Bot position is (-1.2, 0.2, -1.3)Time is 28,9
-Bot position is (-1.2, 0.2, -1.3)Time is 28,92
-Bot position is (-1.2, 0.2, -1.4)Time is 28,94
-Bot position is (-1.3, 0.2, -1.5)Time is 28,96
-Bot position is (-1.3, 0.2, -1.6)Time is 28,98
-Bot position is (-1.4, 0.2, -1.6)Time is 29
-Bot position is (-1.4, 0.2, -1.7)Time is 29,02
-Bot position is (-1.4, 0.2, -1.8)Time is 29,04
-Bot position is (-1.5, 0.2, -1.8)Time is 29,06
-Bot position is (-1.5, 0.2, -1.9)Time is 29,08
-Bot position is (-1.6, 0.2, -2.0)Time is 29,1
-Bot position is (-1.6, 0.2, -2.0)Time is 29,12
-Bot position is (-1.6, 0.2, -2.1)Time is 29,14
-Bot position is (-1.7, 0.2, -2.2)Time is 29,16
-Bot position is (-1.7, 0.2, -2.2)Time is 29,18
-Bot position is (-1.8, 0.2, -2.3)Time is 29,2
-Bot position is (-1.8, 0.2, -2.4)Time is 29,22
-Bot position is (-1.8, 0.2, -2.5)Time is 29,24
-Bot position is (-1.9, 0.2, -2.5)Time is 29,26
-Bot position is (-1.9, 0.2, -2.6)Time is 29,28
-Bot position is (-2.0, 0.2, -2.7)Time is 29,3
-Bot position is (-2.0, 0.2, -2.7)Time is 29,32
-Bot position is (-2.0, 0.2, -2.8)Time is 29,34
-Bot position is (-2.1, 0.2, -2.9)Time is 29,36
-Bot position is (-2.1, 0.2, -2.9)Time is 29,38
-Bot position is (-2.2, 0.2, -3.0)Time is 29,4
-Bot position is (-2.2, 0.2, -3.1)Time is 29,42
-Bot position is (-2.2, 0.2, -3.1)Time is 29,44
-Bot position is (-2.3, 0.2, -3.2)Time is 29,46
-Bot position is (-2.3, 0.2, -3.3)Time is 29,48
-Bot position is (-2.4, 0.2, -3.4)Time is 29,5
-Bot position is (-2.4, 0.2, -3.4)Time is 29,52
-Bot position is (-2.4, 0.2, -3.5)Time is 29,54
-Bot position is (-2.5, 0.2, -3.6)Time is 29,56
-Bot position is (-2.5, 0.2, -3.6)Time is 29,58
-Bot position is (-2.6, 0.2, -3.7)Time is 29,6
-Bot position is (-2.6, 0.2, -3.8)Time is 29,62
-Bot position is (-2.6, 0.2, -3.8)Time is 29,64
-Bot position is (-2.7, 0.2, -3.9)Time is 29,66
-Bot position is (-2.7, 0.2, -4.0)Time is 29,68
-Bot position is (-2.8, 0.2, -4.0)Time is 29,7
-Bot position is (-2.8, 0.2, -4.1)Time is 29,72
-Bot position is (-2.8, 0.2, -4.2)Time is 29,74
-Bot position is (-2.9, 0.2, -4.3)Time is 29,76
-Bot position is (-2.9, 0.2, -4.3)Time is 29,78
-Bot position is (-3.0, 0.2, -4.4)Time is 29,8
-Bot position is (-3.0, 0.2, -4.5)Time is 29,82
-Bot position is (-3.0, 0.2, -4.5)Time is 29,84
-Bot position is (-3.1, 0.2, -4.6)Time is 29,86
-Bot position is (-3.1, 0.2, -4.7)Time is 29,88
-Bot position is (-3.2, 0.2, -4.7)Time is 29,9
-Bot position is (-3.2, 0.2, -4.8)Time is 29,92
-Bot position is (-3.2, 0.2, -4.9)Time is 29,94
-Bot position is (-3.3, 0.2, -4.9)Time is 29,96
-Bot position is (-3.3, 0.2, -5.0)Time is 29,98
-Bot position is (-3.4, 0.2, -5.1)Time is 30
-Bot position is (-3.4, 0.2, -5.2)Time is 30,02
-Bot position is (-3.4, 0.2, -5.2)Time is 30,04
-Bot position is (-3.5, 0.2, -5.3)Time is 30,06
-Bot position is (-3.5, 0.2, -5.4)Time is 30,08
-Bot position is (-3.6, 0.2, -5.4)Time is 30,1
-Bot position is (-3.6, 0.2, -5.5)Time is 30,12
-Bot position is (-3.6, 0.2, -5.6)Time is 30,14
-Bot position is (-3.7, 0.2, -5.6)Time is 30,16
-Bot position is (-3.7, 0.2, -5.7)Time is 30,18
-Bot position is (-3.8, 0.2, -5.8)Time is 30,2
-Bot position is (-3.8, 0.2, -5.8)Time is 30,22
-Bot position is (-3.8, 0.2, -5.9)Time is 30,24
-Bot position is (-3.9, 0.2, -6.0)Time is 30,26
-Bot position is (-3.9, 0.2, -6.1)Time is 30,28
-Bot position is (-4.0, 0.2, -6.1)Time is 30,3
-Bot position is (-4.0, 0.2, -6.2)Time is 30,32
-Bot position is (-4.0, 0.2, -6.3)Time is 30,34
-Bot position is (-4.1, 0.2, -6.3)Time is 30,36
-Bot position is (-4.1, 0.2, -6.4)Time is 30,38
-Bot position is (-4.2, 0.2, -6.5)Time is 30,4
-Bot position is (-4.2, 0.2, -6.5)Time is 30,42
-Bot position is (-4.2, 0.2, -6.6)Time is 30,44
-Bot position is (-4.3, 0.2, -6.7)Time is 30,46
-Bot position is (-4.3, 0.2, -6.8)Time is 30,48
-Bot position is (-4.4, 0.2, -6.8)Time is 30,5
-Bot position is (-4.4, 0.2, -6.9)Time is 30,52
-Bot position is (-4.4, 0.2, -7.0)Time is 30,54
-Bot position is (-4.5, 0.2, -7.0)Time is 30,56
-Bot position is (-4.5, 0.2, -7.1)Time is 30,58
-Bot position is (-4.6, 0.2, -7.2)Time is 30,6
-Bot position is (-4.6, 0.2, -7.2)Time is 30,62
-Bot position is (-4.6, 0.2, -7.3)Time is 30,64
-Bot position is (-4.7, 0.2, -7.4)Time is 30,66
-Bot position is (-4.7, 0.2, -7.4)Time is 30,68
-Bot position is (-4.8, 0.2, -7.5)Time is 30,7
-Bot position is (-4.8, 0.2, -7.6)Time is 30,72
-Bot position is (-4.8, 0.2, -7.7)Time is 30,74
-Bot position is (-4.9, 0.2, -7.7)Time is 30,76
-Bot position is (-4.9, 0.2, -7.8)Time is 30,78
-Bot position is (-5.0, 0.2, -7.9)Time is 30,8
-Bot position is (-5.0, 0.2, -7.9)Time is 30,82
-Bot rotated Time is 30,84
-Bot position is (-5.0, 0.2, -8.0)Time is 30,84
-Bot position is (-5.0, 0.2, -8.1)Time is 30,86
-Bot position is (-4.9, 0.2, -8.2)Time is 30,88
-Bot position is (-4.9, 0.2, -8.2)Time is 30,9
-Bot position is (-4.9, 0.2, -8.3)Time is 30,92
-Bot position is (-4.9, 0.2, -8.4)Time is 30,94
-Bot position is (-4.9, 0.2, -8.5)Time is 30,96
-Bot position is (-4.8, 0.2, -8.5)Time is 30,98
-Bot position is (-4.8, 0.2, -8.6)Time is 31
-Bot position is (-4.8, 0.2, -8.7)Time is 31,02
-Bot position is (-4.8, 0.2, -8.8)Time is 31,04
-Bot position is (-4.8, 0.2, -8.9)Time is 31,06
-Bot position is (-4.7, 0.2, -8.9)Time is 31,08
-Bot position is (-4.7, 0.2, -9.0)Time is 31,1
-Bot position is (-4.7, 0.2, -9.1)Time is 31,12
-Bot position is (-4.7, 0.2, -9.2)Time is 31,14
-Bot position is (-4.6, 0.2, -9.2)Time is 31,16
-Bot position is (-4.6, 0.2, -9.3)Time is 31,18
-Bot position is (-4.6, 0.2, -9.4)Time is 31,2
-Bot position is (-4.6, 0.2, -9.5)Time is 31,22
-Bot position is (-4.6, 0.2, -9.6)Time is 31,24
-Bot position is (-4.5, 0.2, -9.6)Time is 31,26
-Bot position is (-4.5, 0.2, -9.7)Time is 31,28
-Bot position is (-4.5, 0.2, -9.8)Time is 31,3
-Bot position is (-4.5, 0.2, -9.9)Time is 31,32
-Bot position is (-4.5, 0.2, -9.9)Time is 31,34
-Bot position is (-4.4, 0.2, -10.0)Time is 31,36
-Bot position is (-4.4, 0.2, -10.1)Time is 31,38
-Bot position is (-4.4, 0.2, -10.2)Time is 31,4
-Bot position is (-4.4, 0.2, -10.2)Time is 31,42
-Bot position is (-4.4, 0.2, -10.3)Time is 31,44
-Bot position is (-4.3, 0.2, -10.4)Time is 31,46
-Bot position is (-4.3, 0.2, -10.5)Time is 31,48
-Bot position is (-4.3, 0.2, -10.6)Time is 31,5
-Bot position is (-4.3, 0.2, -10.6)Time is 31,52
-Bot position is (-4.3, 0.2, -10.7)Time is 31,54
-Bot position is (-4.2, 0.2, -10.8)Time is 31,56
-Bot position is (-4.2, 0.2, -10.9)Time is 31,58
-Bot position is (-4.2, 0.2, -10.9)Time is 31,6
-Bot position is (-4.2, 0.2, -11.0)Time is 31,62
-Bot position is (-4.2, 0.2, -11.1)Time is 31,64
-Bot position is (-4.1, 0.2, -11.2)Time is 31,66
-Bot position is (-4.1, 0.2, -11.3)Time is 31,68
-Bot position is (-4.1, 0.2, -11.3)Time is 31,7
-Bot position is (-4.1, 0.2, -11.4)Time is 31,72
-Bot position is (-4.0, 0.2, -11.5)Time is 31,74
-Bot position is (-4.0, 0.2, -11.6)Time is 31,76
-Bot position is (-4.0, 0.2, -11.6)Time is 31,78
-Bot position is (-4.0, 0.2, -11.7)Time is 31,8
-Bot position is (-4.0, 0.2, -11.8)Time is 31,82
-Bot rotated Time is 31,84
-Bot position is (-4.0, 0.2, -11.8)Time is 31,84
-Bot position is (-4.1, 0.2, -11.8)Time is 31,86
-Bot position is (-4.2, 0.2, -11.8)Time is 31,88
-Bot position is (-4.3, 0.2, -11.8)Time is 31,9
-Bot position is (-4.4, 0.2, -11.8)Time is 31,92
-Bot position is (-4.4, 0.2, -11.8)Time is 31,94
-Bot position is (-4.5, 0.2, -11.8)Time is 31,96
-Bot position is (-4.6, 0.2, -11.8)Time is 31,98
-Bot position is (-4.7, 0.2, -11.9)Time is 32
-Bot position is (-4.8, 0.2, -11.9)Time is 32,02
-Bot position is (-4.8, 0.2, -11.9)Time is 32,04
-Bot position is (-4.9, 0.2, -11.9)Time is 32,06
-Bot position is (-5.0, 0.2, -11.9)Time is 32,08
-Bot position is (-5.1, 0.2, -11.9)Time is 32,1
-Bot position is (-5.2, 0.2, -11.9)Time is 32,12
-Bot position is (-5.2, 0.2, -11.9)Time is 32,14
-Bot position is (-5.3, 0.2, -11.9)Time is 32,16
-Bot position is (-5.4, 0.2, -11.9)Time is 32,18
-Bot position is (-5.5, 0.2, -11.9)Time is 32,2
-Bot position is (-5.6, 0.2, -11.9)Time is 32,22
-Bot position is (-5.6, 0.2, -11.9)Time is 32,24
-Bot position is (-5.7, 0.2, -11.9)Time is 32,26
-Bot position is (-5.8, 0.2, -12.0)Time is 32,28
-Bot position is (-5.9, 0.2, -12.0)Time is 32,3
-Bot position is (-6.0, 0.2, -12.0)Time is 32,32
-Bot position is (-6.0, 0.2, -12.0)Time is 32,34
-Bot position is (-6.1, 0.2, -12.0)Time is 32,36
-Bot position is (-6.2, 0.2, -12.0)Time is 32,38
-Bot position is (-6.3, 0.2, -12.0)Time is 32,4
-Bot position is (-6.4, 0.2, -12.0)Time is 32,42
-Bot position is (-6.4, 0.2, -12.0)Time is 32,44
-Bot position is (-6.5, 0.2, -12.0)Time is 32,46
-Bot position is (-6.6, 0.2, -12.0)Time is 32,48
-Bot position is (-6.7, 0.2, -12.0)Time is 32,5
-Bot position is (-6.8, 0.2, -12.0)Time is 32,52
-Bot position is (-6.8, 0.2, -12.0)Time is 32,54
-Bot position is (-6.9, 0.2, -12.0)Time is 32,56
-Bot position is (-7.0, 0.2, -12.1)Time is 32,58
-Bot position is (-7.1, 0.2, -12.1)Time is 32,6
-Bot position is (-7.2, 0.2, -12.1)Time is 32,62
-Bot position is (-7.2, 0.2, -12.1)Time is 32,64
-Bot position is (-7.3, 0.2, -12.1)Time is 32,66
-Bot position is (-7.4, 0.2, -12.1)Time is 32,68
-Bot position is (-7.5, 0.2, -12.1)Time is 32,7
-Bot position is (-7.6, 0.2, -12.1)Time is 32,72
-Bot position is (-7.6, 0.2, -12.1)Time is 32,74
-Bot position is (-7.7, 0.2, -12.1)Time is 32,76
-Bot position is (-7.8, 0.2, -12.1)Time is 32,78
-Bot position is (-7.9, 0.2, -12.1)Time is 32,8
-Bot position is (-7.9, 0.2, -12.1)Time is 32,82
-Bot is shouting Time is 32,84
-Bot position is (-7.9, 0.2, -12.1)Time is 32,84
-Bot is shouting Time is 32,86
-Bot position is (-7.9, 0.2, -12.1)Time is 32,86
-Bot is shouting Time is 32,88
-Bot position is (-7.9, 0.2, -12.1)Time is 32,88
-Bot is shouting Time is 32,9
-Bot position is (-7.9, 0.2, -12.1)Time is 32,9
-Bot is shouting Time is 32,92
-Bot position is (-7.9, 0.2, -12.1)Time is 32,92
-Bot is shouting Time is 32,94
-Bot position is (-7.9, 0.2, -12.1)Time is 32,94
-Bot is shouting Time is 32,96
-Bot position is (-7.9, 0.2, -12.1)Time is 32,96
-Bot is shouting Time is 32,98
-Bot position is (-7.9, 0.2, -12.1)Time is 32,98
-Bot is shouting Time is 33
-Bot position is (-7.9, 0.2, -12.1)Time is 33
-Bot is shouting Time is 33,02
-Bot position is (-7.9, 0.2, -12.1)Time is 33,02
-Bot is shouting Time is 33,04
-Bot position is (-7.9, 0.2, -12.1)Time is 33,04
-Bot is shouting Time is 33,06
-Bot position is (-7.9, 0.2, -12.1)Time is 33,06
-Bot is shouting Time is 33,08
-Bot position is (-7.9, 0.2, -12.1)Time is 33,08
-Bot is shouting Time is 33,1
-Bot position is (-7.9, 0.2, -12.1)Time is 33,1
-Bot is shouting Time is 33,12
-Bot position is (-7.9, 0.2, -12.1)Time is 33,12
-Bot is shouting Time is 33,14
-Bot position is (-7.9, 0.2, -12.1)Time is 33,14
-Bot is shouting Time is 33,16
-Bot position is (-7.9, 0.2, -12.1)Time is 33,16
-Bot is shouting Time is 33,18
-Bot position is (-7.9, 0.2, -12.1)Time is 33,18
-Bot is shouting Time is 33,2
-Bot position is (-7.9, 0.2, -12.1)Time is 33,2
-Bot is shouting Time is 33,22
-Bot position is (-7.9, 0.2, -12.1)Time is 33,22
-Bot is shouting Time is 33,24
-Bot position is (-7.9, 0.2, -12.1)Time is 33,24
-Bot is shouting Time is 33,26
-Bot position is (-7.9, 0.2, -12.1)Time is 33,26
-Bot is shouting Time is 33,28
-Bot position is (-7.9, 0.2, -12.1)Time is 33,28
-Bot is shouting Time is 33,3
-Bot position is (-7.9, 0.2, -12.1)Time is 33,3
-Bot is shouting Time is 33,32
-Bot position is (-7.9, 0.2, -12.1)Time is 33,32
-Bot is shouting Time is 33,34
-Bot position is (-7.9, 0.2, -12.1)Time is 33,34
-Bot is shouting Time is 33,36
-Bot position is (-7.9, 0.2, -12.1)Time is 33,36
-Bot is shouting Time is 33,38
-Bot position is (-7.9, 0.2, -12.1)Time is 33,38
-Bot is shouting Time is 33,4
-Bot position is (-7.9, 0.2, -12.1)Time is 33,4
-Bot is shouting Time is 33,42
-Bot position is (-7.9, 0.2, -12.1)Time is 33,42
-Bot is shouting Time is 33,44
-Bot position is (-7.9, 0.2, -12.1)Time is 33,44
-Bot is shouting Time is 33,46
-Bot position is (-7.9, 0.2, -12.1)Time is 33,46
-Bot is shouting Time is 33,48
-Bot position is (-7.9, 0.2, -12.1)Time is 33,48
-Bot is shouting Time is 33,5
-Bot position is (-7.9, 0.2, -12.1)Time is 33,5
-Bot is shouting Time is 33,52
-Bot position is (-7.9, 0.2, -12.1)Time is 33,52
-Bot is shouting Time is 33,54
-Bot position is (-7.9, 0.2, -12.1)Time is 33,54
-Bot is shouting Time is 33,56
-Bot position is (-7.9, 0.2, -12.1)Time is 33,56
-Bot is shouting Time is 33,58
-Bot position is (-7.9, 0.2, -12.1)Time is 33,58
-Bot is shouting Time is 33,6
-Bot position is (-7.9, 0.2, -12.1)Time is 33,6
-Bot is shouting Time is 33,62
-Bot position is (-7.9, 0.2, -12.1)Time is 33,62
-Bot is shouting Time is 33,64
-Bot position is (-7.9, 0.2, -12.1)Time is 33,64
-Bot is shouting Time is 33,66
-Bot position is (-7.9, 0.2, -12.1)Time is 33,66
-Bot is shouting Time is 33,68
-Bot position is (-7.9, 0.2, -12.1)Time is 33,68
-Bot is shouting Time is 33,7
-Bot position is (-7.9, 0.2, -12.1)Time is 33,7
-Bot is shouting Time is 33,72
-Bot position is (-7.9, 0.2, -12.1)Time is 33,72
-Bot is shouting Time is 33,74
-Bot position is (-7.9, 0.2, -12.1)Time is 33,74
-Bot is shouting Time is 33,76
-Bot position is (-7.9, 0.2, -12.1)Time is 33,76
-Bot is shouting Time is 33,78
-Bot position is (-7.9, 0.2, -12.1)Time is 33,78
-Bot is shouting Time is 33,8
-Bot position is (-7.9, 0.2, -12.1)Time is 33,8
-Bot is shouting Time is 33,82
-Bot position is (-7.9, 0.2, -12.1)Time is 33,82
-Bot position is (-8.0, 0.2, -12.1)Time is 33,84
-Bot position is (-8.1, 0.2, -12.2)Time is 33,86
-Bot position is (-8.2, 0.2, -12.2)Time is 33,88
-Bot position is (-8.3, 0.2, -12.2)Time is 33,9
-Bot position is (-8.3, 0.2, -12.2)Time is 33,92
-Bot position is (-8.4, 0.2, -12.2)Time is 33,94
-Bot position is (-8.5, 0.2, -12.2)Time is 33,96
-Bot position is (-8.6, 0.2, -12.2)Time is 33,98
-Bot position is (-8.7, 0.2, -12.2)Time is 34
-Bot position is (-8.7, 0.2, -12.2)Time is 34,02
-Bot position is (-8.8, 0.2, -12.2)Time is 34,04
-Bot position is (-8.9, 0.2, -12.2)Time is 34,06
-Bot position is (-9.0, 0.2, -12.2)Time is 34,08
-Bot position is (-9.1, 0.2, -12.2)Time is 34,1
-Bot position is (-9.1, 0.2, -12.2)Time is 34,12
-Bot position is (-9.2, 0.2, -12.3)Time is 34,14
-Bot position is (-9.3, 0.2, -12.3)Time is 34,16
-Bot position is (-9.4, 0.2, -12.3)Time is 34,18
-Bot position is (-9.5, 0.2, -12.3)Time is 34,2
-Bot position is (-9.5, 0.2, -12.3)Time is 34,22
-Bot position is (-9.6, 0.2, -12.3)Time is 34,24
-Bot position is (-9.7, 0.2, -12.3)Time is 34,26
-Bot position is (-9.8, 0.2, -12.3)Time is 34,28
-Bot position is (-9.9, 0.2, -12.3)Time is 34,3
-Bot position is (-9.9, 0.2, -12.3)Time is 34,32
-Bot position is (-10.0, 0.2, -12.3)Time is 34,34
-Bot position is (-10.1, 0.2, -12.3)Time is 34,36
-Bot position is (-10.2, 0.2, -12.3)Time is 34,38
-Bot position is (-10.3, 0.2, -12.3)Time is 34,4
-Bot position is (-10.3, 0.2, -12.3)Time is 34,42
-Bot position is (-10.4, 0.2, -12.4)Time is 34,44
-Bot position is (-10.5, 0.2, -12.4)Time is 34,46
-Bot position is (-10.6, 0.2, -12.4)Time is 34,48
-Bot position is (-10.7, 0.2, -12.4)Time is 34,5
-Bot position is (-10.7, 0.2, -12.4)Time is 34,52
-Bot position is (-10.8, 0.2, -12.4)Time is 34,54
-Bot position is (-10.9, 0.2, -12.4)Time is 34,56
-Bot position is (-11.0, 0.2, -12.4)Time is 34,58
-Bot position is (-11.1, 0.2, -12.4)Time is 34,6
-Bot position is (-11.1, 0.2, -12.4)Time is 34,62
-Bot position is (-11.2, 0.2, -12.4)Time is 34,64
-Bot position is (-11.3, 0.2, -12.4)Time is 34,66
-Bot position is (-11.4, 0.2, -12.4)Time is 34,68
-Bot position is (-11.5, 0.2, -12.4)Time is 34,7
-Bot position is (-11.5, 0.2, -12.5)Time is 34,72
-Bot position is (-11.6, 0.2, -12.5)Time is 34,74
-Bot position is (-11.7, 0.2, -12.5)Time is 34,76
-Bot position is (-11.8, 0.2, -12.5)Time is 34,78
-Bot position is (-11.9, 0.2, -12.5)Time is 34,8
-Bot position is (-11.9, 0.2, -12.5)Time is 34,82
-Bot position is (-12.0, 0.2, -12.5)Time is 34,84
-Bot position is (-12.1, 0.2, -12.5)Time is 34,86
-Bot position is (-12.2, 0.2, -12.5)Time is 34,88
-Bot position is (-12.3, 0.2, -12.5)Time is 34,9
-Bot position is (-12.3, 0.2, -12.5)Tim
+Bot position is (1.0, 1.0, 1.1)Time is 16,56
+Bot position is (1.0, 1.0, 1.2)Time is 16,58
+Bot position is (1.0, 1.0, 1.2)Time is 16,6
+Bot position is (1.0, 1.0, 1.3)Time is 16,62
+Bot position is (1.0, 1.0, 1.4)Time is 16,64
+Bot position is (1.0, 1.0, 1.5)Time is 16,66
+Bot position is (1.0, 1.0, 1.6)Time is 16,68
+Bot position is (1.0, 1.0, 1.6)Time is 16,7
+Bot position is (1.0, 1.0, 1.7)Time is 16,72
+Bot position is (1.0, 1.0, 1.8)Time is 16,74
+Bot position is (1.0, 1.0, 1.9)Time is 16,76
+Bot position is (1.0, 1.0, 2.0)Time is 16,78
+Bot position is (1.0, 1.0, 2.0)Time is 16,8
+Bot position is (1.0, 0.9, 2.1)Time is 16,82
+Bot position is (1.0, 0.9, 2.2)Time is 16,84
+Bot position is (1.0, 0.9, 2.3)Time is 16,86
+Bot position is (1.0, 0.9, 2.4)Time is 16,88
+Bot position is (1.0, 0.9, 2.4)Time is 16,9
+Bot position is (1.0, 0.9, 2.5)Time is 16,92
+Bot position is (1.0, 0.9, 2.6)Time is 16,94
+Bot position is (1.0, 0.9, 2.7)Time is 16,96
+Bot position is (1.0, 0.9, 2.8)Time is 16,98
+Bot position is (1.0, 0.9, 2.8)Time is 17
+Bot position is (1.0, 0.9, 2.9)Time is 17,02
+Bot position is (1.0, 0.9, 3.0)Time is 17,04
+Bot position is (1.0, 0.9, 3.1)Time is 17,06
+Bot position is (1.0, 0.9, 3.2)Time is 17,08
+Bot position is (1.0, 0.9, 3.2)Time is 17,1
+Bot position is (1.0, 0.9, 3.3)Time is 17,12
+Bot position is (1.0, 0.9, 3.4)Time is 17,14
+Bot position is (1.0, 0.9, 3.5)Time is 17,16
+Bot position is (1.0, 0.9, 3.6)Time is 17,18
+Bot position is (1.0, 0.9, 3.6)Time is 17,2
+Bot position is (1.0, 0.9, 3.7)Time is 17,22
+Bot position is (1.0, 0.9, 3.8)Time is 17,24
+Bot position is (1.0, 0.9, 3.9)Time is 17,26
+Bot position is (1.0, 0.9, 4.0)Time is 17,28
+Bot position is (1.0, 0.9, 4.0)Time is 17,3
+Bot position is (1.0, 0.9, 4.1)Time is 17,32
+Bot position is (1.0, 0.9, 4.2)Time is 17,34
+Bot position is (1.0, 0.9, 4.3)Time is 17,36
+Bot position is (1.0, 0.8, 4.4)Time is 17,38
+Bot position is (1.0, 0.8, 4.4)Time is 17,4
+Bot position is (1.0, 0.8, 4.5)Time is 17,42
+Bot position is (1.0, 0.8, 4.6)Time is 17,44
+Bot position is (1.0, 0.8, 4.7)Time is 17,46
+Bot position is (1.0, 0.8, 4.8)Time is 17,48
+Bot position is (1.0, 0.8, 4.8)Time is 17,5
+Bot position is (1.0, 0.8, 4.9)Time is 17,52
+Bot position is (1.0, 0.8, 5.0)Time is 17,54
+Bot position is (1.0, 0.8, 5.1)Time is 17,56
+Bot position is (1.0, 0.8, 5.2)Time is 17,58
+Bot position is (1.0, 0.8, 5.2)Time is 17,6
+Bot position is (1.0, 0.8, 5.3)Time is 17,62
+Bot position is (1.0, 0.8, 5.4)Time is 17,64
+Bot position is (1.0, 0.8, 5.5)Time is 17,66
+Bot position is (1.0, 0.8, 5.6)Time is 17,68
+Bot position is (1.0, 0.8, 5.6)Time is 17,7
+Bot position is (1.0, 0.8, 5.7)Time is 17,72
+Bot position is (1.0, 0.8, 5.8)Time is 17,74
+Bot position is (1.0, 0.8, 5.9)Time is 17,76
+Bot position is (1.0, 0.8, 6.0)Time is 17,78
+Bot position is (1.0, 0.8, 6.0)Time is 17,8
+Bot position is (1.0, 0.8, 6.1)Time is 17,82
+Bot position is (1.0, 0.8, 6.2)Time is 17,84
+Bot position is (1.0, 0.8, 6.3)Time is 17,86
+Bot position is (1.0, 0.8, 6.4)Time is 17,88
+Bot position is (1.0, 0.8, 6.4)Time is 17,9
+Bot position is (1.0, 0.8, 6.5)Time is 17,92
+Bot position is (1.0, 0.7, 6.6)Time is 17,94
+Bot position is (1.0, 0.7, 6.7)Time is 17,96
+Bot position is (1.0, 0.7, 6.8)Time is 17,98
+Bot position is (1.0, 0.7, 6.8)Time is 18
+Bot position is (1.0, 0.7, 6.9)Time is 18,02
+Bot position is (1.0, 0.7, 7.0)Time is 18,04
+Bot position is (1.0, 0.7, 7.1)Time is 18,06
+Bot position is (1.0, 0.7, 7.2)Time is 18,08
+Bot position is (1.0, 0.7, 7.2)Time is 18,1
+Bot position is (1.0, 0.7, 7.3)Time is 18,12
+Bot position is (1.0, 0.7, 7.4)Time is 18,14
+Bot position is (1.0, 0.7, 7.5)Time is 18,16
+Bot position is (1.0, 0.7, 7.6)Time is 18,18
+Bot position is (1.0, 0.7, 7.6)Time is 18,2
+Bot position is (1.0, 0.7, 7.7)Time is 18,22
+Bot position is (1.0, 0.7, 7.8)Time is 18,24
+Bot position is (1.0, 0.7, 7.9)Time is 18,26
+Bot position is (1.0, 0.7, 8.0)Time is 18,28
+Bot position is (1.0, 0.7, 8.0)Time is 18,3
+Bot position is (1.0, 0.7, 8.1)Time is 18,32
+Bot position is (1.0, 0.7, 8.2)Time is 18,34
+Bot position is (1.0, 0.7, 8.3)Time is 18,36
+Bot position is (1.0, 0.7, 8.4)Time is 18,38
+Bot position is (1.0, 0.7, 8.4)Time is 18,4
+Bot position is (1.0, 0.7, 8.5)Time is 18,42
+Bot position is (1.0, 0.7, 8.6)Time is 18,44
+Bot position is (1.0, 0.7, 8.7)Time is 18,46
+Bot position is (1.0, 0.7, 8.8)Time is 18,48
+Bot position is (1.0, 0.6, 8.8)Time is 18,5
+Bot position is (1.0, 0.6, 8.9)Time is 18,52
+Bot position is (1.0, 0.6, 9.0)Time is 18,54
+Bot position is (1.0, 0.6, 9.1)Time is 18,56
+Bot position is (1.0, 0.6, 9.2)Time is 18,58
+Bot position is (1.0, 0.6, 9.2)Time is 18,6
+Bot position is (1.0, 0.6, 9.3)Time is 18,62
+Bot position is (1.0, 0.6, 9.4)Time is 18,64
+Bot position is (1.0, 0.6, 9.5)Time is 18,66
+Bot position is (1.0, 0.6, 9.6)Time is 18,68
+Bot position is (1.0, 0.6, 9.6)Time is 18,7
+Bot position is (1.0, 0.6, 9.7)Time is 18,72
+Bot position is (1.0, 0.6, 9.8)Time is 18,74
+Bot position is (1.0, 0.6, 9.9)Time is 18,76
+Bot position is (1.0, 0.6, 10.0)Time is 18,78
+Bot position is (1.0, 0.6, 10.0)Time is 18,8
+Bot position is (1.0, 0.6, 10.1)Time is 18,82
+Bot position is (1.0, 0.6, 10.2)Time is 18,84
+Bot position is (1.0, 0.6, 10.3)Time is 18,86
+Bot position is (1.0, 0.6, 10.4)Time is 18,88
+Bot position is (1.0, 0.6, 10.4)Time is 18,9
+Bot position is (1.0, 0.6, 10.5)Time is 18,92
+Bot position is (1.0, 0.6, 10.6)Time is 18,94
+Bot position is (1.0, 0.6, 10.7)Time is 18,96
+Bot position is (1.0, 0.6, 10.8)Time is 18,98
+Bot position is (1.0, 0.6, 10.8)Time is 19
+Bot position is (1.0, 0.6, 10.9)Time is 19,02
+Bot position is (1.0, 0.5, 11.0)Time is 19,04
+Bot position is (1.0, 0.5, 11.1)Time is 19,06
+Bot position is (1.0, 0.5, 11.2)Time is 19,08
+Bot position is (1.0, 0.5, 11.2)Time is 19,1
+Bot position is (1.0, 0.5, 11.3)Time is 19,12
+Bot position is (1.0, 0.5, 11.4)Time is 19,14
+Bot position is (1.0, 0.5, 11.5)Time is 19,16
+Bot position is (1.0, 0.5, 11.6)Time is 19,18
+Bot position is (1.0, 0.5, 11.6)Time is 19,2
+Bot position is (1.0, 0.5, 11.7)Time is 19,22
+Bot position is (1.0, 0.5, 11.8)Time is 19,24
+Bot position is (1.0, 0.5, 11.9)Time is 19,26
+Bot position is (1.0, 0.5, 12.0)Time is 19,28
+Bot position is (1.0, 0.5, 12.0)Time is 19,3
+Bot position is (1.0, 0.5, 12.1)Time is 19,32
+Bot position is (1.0, 0.5, 12.2)Time is 19,34
+Bot position is (1.0, 0.5, 12.3)Time is 19,36
+Bot position is (1.0, 0.5, 12.4)Time is 19,38
+Bot position is (1.0, 0.5, 12.4)Time is 19,4
+Bot position is (1.0, 0.5, 12.5)Time is 19,42
+Bot position is (1.0, 0.5, 12.6)Time is 19,44
+Bot position is (1.0, 0.5, 12.7)Time is 19,46
+Bot position is (1.0, 0.5, 12.8)Time is 19,48
+Bot position is (1.0, 0.5, 12.8)Time is 19,5
+Bot position is (1.0, 0.5, 12.9)Time is 19,52
+Bot position is (1.0, 0.5, 13.0)Time is 19,54
+Bot rotated Time is 19,56
+Bot position is (0.9, 0.5, 13.0)Time is 19,56
+Bot position is (0.8, 0.5, 13.0)Time is 19,58
+Bot position is (0.8, 0.4, 13.0)Time is 19,6
+Bot position is (0.7, 0.4, 13.0)Time is 19,62
+Bot position is (0.6, 0.4, 13.0)Time is 19,64
+Bot position is (0.5, 0.4, 13.0)Time is 19,66
+Bot position is (0.4, 0.4, 13.0)Time is 19,68
+Bot position is (0.4, 0.4, 13.0)Time is 19,7
+Bot position is (0.3, 0.4, 13.0)Time is 19,72
+Bot position is (0.2, 0.4, 13.0)Time is 19,74
+Bot position is (0.1, 0.4, 13.0)Time is 19,76
+Bot position is (0.0, 0.4, 13.0)Time is 19,78
+Bot position is (0.0, 0.4, 13.0)Time is 19,8
+Bot position is (-0.1, 0.4, 13.0)Time is 19,82
+Bot position is (-0.2, 0.4, 13.0)Time is 19,84
+Bot position is (-0.3, 0.4, 13.0)Time is 19,86
+Bot position is (-0.4, 0.4, 13.0)Time is 19,88
+Bot position is (-0.4, 0.4, 13.0)Time is 19,9
+Bot position is (-0.5, 0.4, 13.0)Time is 19,92
+Bot position is (-0.6, 0.4, 13.0)Time is 19,94
+Bot position is (-0.7, 0.4, 13.0)Time is 19,96
+Bot position is (-0.8, 0.4, 13.0)Time is 19,98
+Bot position is (-0.8, 0.4, 13.0)Time is 20
+Bot position is (-0.9, 0.4, 13.0)Time is 20,02
+Bot position is (-1.0, 0.4, 13.0)Time is 20,04
+Bot rotated Time is 20,06
+Bot position is (-1.0, 0.4, 12.9)Time is 20,06
+Bot position is (-1.0, 0.4, 12.8)Time is 20,08
+Bot position is (-1.0, 0.4, 12.8)Time is 20,1
+Bot position is (-1.0, 0.4, 12.7)Time is 20,12
+Bot position is (-1.0, 0.4, 12.6)Time is 20,14
+Bot position is (-1.0, 0.3, 12.5)Time is 20,16
+Bot position is (-1.0, 0.3, 12.4)Time is 20,18
+Bot position is (-1.0, 0.3, 12.4)Time is 20,2
+Bot position is (-1.0, 0.3, 12.3)Time is 20,22
+Bot position is (-1.0, 0.3, 12.2)Time is 20,24
+Bot position is (-1.0, 0.3, 12.1)Time is 20,26
+Bot position is (-1.0, 0.3, 12.0)Time is 20,28
+Bot position is (-1.0, 0.3, 12.0)Time is 20,3
+Bot position is (-1.0, 0.3, 11.9)Time is 20,32
+Bot position is (-1.0, 0.3, 11.8)Time is 20,34
+Bot position is (-1.0, 0.3, 11.7)Time is 20,36
+Bot position is (-1.0, 0.3, 11.6)Time is 20,38
+Bot position is (-1.0, 0.3, 11.6)Time is 20,4
+Bot position is (-1.0, 0.3, 11.5)Time is 20,42
+Bot position is (-1.0, 0.3, 11.4)Time is 20,44
+Bot position is (-1.0, 0.3, 11.3)Time is 20,46
+Bot position is (-1.0, 0.3, 11.2)Time is 20,48
+Bot position is (-1.0, 0.3, 11.2)Time is 20,5
+Bot position is (-1.0, 0.3, 11.1)Time is 20,52
+Bot position is (-1.0, 0.3, 11.0)Time is 20,54
+Bot position is (-1.0, 0.3, 10.9)Time is 20,56
+Bot position is (-1.0, 0.3, 10.8)Time is 20,58
+Bot position is (-1.0, 0.3, 10.8)Time is 20,6
+Bot position is (-1.0, 0.3, 10.7)Time is 20,62
+Bot position is (-1.0, 0.3, 10.6)Time is 20,64
+Bot position is (-1.0, 0.3, 10.5)Time is 20,66
+Bot position is (-1.0, 0.3, 10.4)Time is 20,68
+Bot position is (-1.0, 0.3, 10.4)Time is 20,7
+Bot position is (-1.0, 0.2, 10.3)Time is 20,72
+Bot position is (-1.0, 0.2, 10.2)Time is 20,74
+Bot position is (-1.0, 0.2, 10.1)Time is 20,76
+Bot position is (-1.0, 0.2, 10.0)Time is 20,78
+Bot position is (-1.0, 0.2, 10.0)Time is 20,8
+Bot position is (-1.0, 0.2, 9.9)Time is 20,82
+Bot position is (-1.0, 0.2, 9.8)Time is 20,84
+Bot position is (-1.0, 0.2, 9.7)Time is 20,86
+Bot position is (-1.0, 0.2, 9.6)Time is 20,88
+Bot position is (-1.0, 0.2, 9.6)Time is 20,9
+Bot position is (-1.0, 0.2, 9.5)Time is 20,92
+Bot position is (-1.0, 0.2, 9.4)Time is 20,94
+Bot position is (-1.0, 0.2, 9.3)Time is 20,96
+Bot position is (-1.0, 0.2, 9.2)Time is 20,98
+Bot position is (-1.0, 0.2, 9.2)Time is 21
+Bot position is (-1.0, 0.2, 9.1)Time is 21,02
+Bot position is (-1.0, 0.2, 9.0)Time is 21,04
+Bot position is (-1.0, 0.2, 8.9)Time is 21,06
+Bot position is (-1.0, 0.2, 8.8)Time is 21,08
+Bot position is (-1.0, 0.2, 8.8)Time is 21,1
+Bot position is (-1.0, 0.2, 8.7)Time is 21,12
+Bot position is (-1.0, 0.2, 8.6)Time is 21,14
+Bot position is (-1.0, 0.2, 8.5)Time is 21,16
+Bot position is (-1.0, 0.2, 8.4)Time is 21,18
+Bot position is (-1.0, 0.2, 8.4)Time is 21,2
+Bot position is (-1.0, 0.2, 8.3)Time is 21,22
+Bot position is (-1.0, 0.2, 8.2)Time is 21,24
+Bot position is (-1.0, 0.2, 8.1)Time is 21,26
+Bot position is (-1.0, 0.2, 8.0)Time is 21,28
+Bot position is (-1.0, 0.2, 8.0)Time is 21,3
+Bot position is (-1.0, 0.2, 7.9)Time is 21,32
+Bot position is (-1.0, 0.2, 7.8)Time is 21,34
+Bot position is (-1.0, 0.2, 7.7)Time is 21,36
+Bot position is (-1.0, 0.2, 7.6)Time is 21,38
+Bot position is (-1.0, 0.2, 7.6)Time is 21,4
+Bot position is (-1.0, 0.2, 7.5)Time is 21,42
+Bot position is (-1.0, 0.2, 7.4)Time is 21,44
+Bot position is (-1.0, 0.2, 7.3)Time is 21,46
+Bot position is (-1.0, 0.2, 7.2)Time is 21,48
+Bot position is (-1.0, 0.2, 7.2)Time is 21,5
+Bot position is (-1.0, 0.2, 7.1)Time is 21,52
+Bot position is (-1.0, 0.2, 7.0)Time is 21,54
+Bot position is (-1.0, 0.2, 6.9)Time is 21,56
+Bot position is (-1.0, 0.2, 6.8)Time is 21,58
+Bot position is (-1.0, 0.2, 6.8)Time is 21,6
+Bot position is (-1.0, 0.2, 6.7)Time is 21,62
+Bot position is (-1.0, 0.2, 6.6)Time is 21,64
+Bot position is (-1.0, 0.2, 6.5)Time is 21,66
+Bot position is (-1.0, 0.2, 6.4)Time is 21,68
+Bot position is (-1.0, 0.2, 6.4)Time is 21,7
+Bot position is (-1.0, 0.2, 6.3)Time is 21,72
+Bot position is (-1.0, 0.2, 6.2)Time is 21,74
+Bot position is (-1.0, 0.2, 6.1)Time is 21,76
+Bot position is (-1.0, 0.2, 6.0)Time is 21,78
+Bot position is (-1.0, 0.2, 6.0)Time is 21,8
+Bot position is (-1.0, 0.2, 5.9)Time is 21,82
+Bot position is (-1.0, 0.2, 5.8)Time is 21,84
+Bot position is (-1.0, 0.2, 5.7)Time is 21,86
+Bot position is (-1.0, 0.2, 5.6)Time is 21,88
+Bot position is (-1.0, 0.2, 5.6)Time is 21,9
+Bot position is (-1.0, 0.2, 5.5)Time is 21,92
+Bot position is (-1.0, 0.2, 5.4)Time is 21,94
+Bot position is (-1.0, 0.2, 5.3)Time is 21,96
+Bot position is (-1.0, 0.2, 5.2)Time is 21,98
+Bot position is (-1.0, 0.2, 5.2)Time is 22
+Bot position is (-1.0, 0.2, 5.1)Time is 22,02
+Bot position is (-1.0, 0.2, 5.0)Time is 22,04
+Bot position is (-1.0, 0.2, 4.9)Time is 22,06
+Bot position is (-1.0, 0.2, 4.8)Time is 22,08
+Bot position is (-1.0, 0.2, 4.8)Time is 22,1
+Bot position is (-1.0, 0.2, 4.7)Time is 22,12
+Bot position is (-1.0, 0.2, 4.6)Time is 22,14
+Bot position is (-1.0, 0.2, 4.5)Time is 22,16
+Bot position is (-1.0, 0.2, 4.4)Time is 22,18
+Bot position is (-1.0, 0.2, 4.4)Time is 22,2
+Bot position is (-1.0, 0.2, 4.3)Time is 22,22
+Bot position is (-1.0, 0.2, 4.2)Time is 22,24
+Bot position is (-1.0, 0.2, 4.1)Time is 22,26
+Bot position is (-1.0, 0.2, 4.0)Time is 22,28
+Bot position is (-1.0, 0.2, 4.0)Time is 22,3
+Bot position is (-1.0, 0.2, 3.9)Time is 22,32
+Bot position is (-1.0, 0.2, 3.8)Time is 22,34
+Bot position is (-1.0, 0.2, 3.7)Time is 22,36
+Bot position is (-1.0, 0.2, 3.6)Time is 22,38
+Bot position is (-1.0, 0.2, 3.6)Time is 22,4
+Bot position is (-1.0, 0.2, 3.5)Time is 22,42
+Bot position is (-1.0, 0.2, 3.4)Time is 22,44
+Bot position is (-1.0, 0.2, 3.3)Time is 22,46
+Bot position is (-1.0, 0.2, 3.2)Time is 22,48
+Bot position is (-1.0, 0.2, 3.2)Time is 22,5
+Bot position is (-1.0, 0.2, 3.1)Time is 22,52
+Bot position is (-1.0, 0.2, 3.0)Time is 22,54
+Bot position is (-1.0, 0.2, 2.9)Time is 22,56
+Bot position is (-1.0, 0.2, 2.8)Time is 22,58
+Bot position is (-1.0, 0.2, 2.8)Time is 22,6
+Bot position is (-1.0, 0.2, 2.7)Time is 22,62
+Bot position is (-1.0, 0.2, 2.6)Time is 22,64
+Bot position is (-1.0, 0.2, 2.5)Time is 22,66
+Bot position is (-1.0, 0.2, 2.4)Time is 22,68
+Bot position is (-1.0, 0.2, 2.4)Time is 22,7
+Bot position is (-1.0, 0.2, 2.3)Time is 22,72
+Bot position is (-1.0, 0.2, 2.2)Time is 22,74
+Bot position is (-1.0, 0.2, 2.1)Time is 22,76
+Bot position is (-1.0, 0.2, 2.0)Time is 22,78
+Bot position is (-1.0, 0.2, 2.0)Time is 22,8
+Bot position is (-1.0, 0.2, 1.9)Time is 22,82
+Bot position is (-1.0, 0.2, 1.8)Time is 22,84
+Bot position is (-1.0, 0.2, 1.7)Time is 22,86
+Bot position is (-1.0, 0.2, 1.6)Time is 22,88
+Bot position is (-1.0, 0.2, 1.6)Time is 22,9
+Bot position is (-1.0, 0.2, 1.5)Time is 22,92
+Bot position is (-1.0, 0.2, 1.4)Time is 22,94
+Bot position is (-1.0, 0.2, 1.3)Time is 22,96
+Bot position is (-1.0, 0.2, 1.2)Time is 22,98
+Bot position is (-1.0, 0.2, 1.2)Time is 23
+Bot position is (-1.0, 0.2, 1.1)Time is 23,02
+Bot position is (-1.0, 0.2, 1.0)Time is 23,04
+Bot position is (-1.0, 0.2, 0.9)Time is 23,06
+Bot position is (-1.0, 0.2, 0.8)Time is 23,08
+Bot position is (-1.0, 0.2, 0.8)Time is 23,1
+Bot position is (-1.0, 0.2, 0.7)Time is 23,12
+Bot position is (-1.0, 0.2, 0.6)Time is 23,14
+Bot position is (-1.0, 0.2, 0.5)Time is 23,16
+Bot position is (-1.0, 0.2, 0.4)Time is 23,18
+Bot position is (-1.0, 0.2, 0.4)Time is 23,2
+Bot position is (-1.0, 0.2, 0.3)Time is 23,22
+Bot position is (-1.0, 0.2, 0.2)Time is 23,24
+Bot position is (-1.0, 0.2, 0.1)Time is 23,26
+Bot position is (-1.0, 0.2, 0.0)Time is 23,28
+Bot position is (-1.0, 0.2, 0.0)Time is 23,3
+Bot position is (-1.0, 0.2, -0.1)Time is 23,32
+Bot position is (-1.0, 0.2, -0.2)Time is 23,34
+Bot position is (-1.0, 0.2, -0.3)Time is 23,36
+Bot position is (-1.0, 0.2, -0.4)Time is 23,38
+Bot position is (-1.0, 0.2, -0.4)Time is 23,4
+Bot position is (-1.0, 0.2, -0.5)Time is 23,42
+Bot position is (-1.0, 0.2, -0.6)Time is 23,44
+Bot position is (-1.0, 0.2, -0.7)Time is 23,46
+Bot position is (-1.0, 0.2, -0.8)Time is 23,48
+Bot position is (-1.0, 0.2, -0.8)Time is 23,5
+Bot position is (-1.0, 0.2, -0.9)Time is 23,52
+Bot position is (-1.0, 0.2, -1.0)Time is 23,54
+Bot rotated Time is 23,56
+Bot position is (-1.0, 0.2, -1.1)Time is 23,56
+Bot position is (-1.1, 0.2, -1.1)Time is 23,58
+Bot position is (-1.1, 0.2, -1.2)Time is 23,6
+Bot position is (-1.2, 0.2, -1.3)Time is 23,62
+Bot position is (-1.2, 0.2, -1.3)Time is 23,64
+Bot position is (-1.2, 0.2, -1.4)Time is 23,66
+Bot position is (-1.3, 0.2, -1.5)Time is 23,68
+Bot position is (-1.3, 0.2, -1.6)Time is 23,7
+Bot position is (-1.4, 0.2, -1.6)Time is 23,72
+Bot position is (-1.4, 0.2, -1.7)Time is 23,74
+Bot position is (-1.4, 0.2, -1.8)Time is 23,76
+Bot position is (-1.5, 0.2, -1.8)Time is 23,78
+Bot position is (-1.5, 0.2, -1.9)Time is 23,8
+Bot position is (-1.6, 0.2, -2.0)Time is 23,82
+Bot position is (-1.6, 0.2, -2.0)Time is 23,84
+Bot position is (-1.6, 0.2, -2.1)Time is 23,86
+Bot position is (-1.7, 0.2, -2.2)Time is 23,88
+Bot position is (-1.7, 0.2, -2.2)Time is 23,9
+Bot position is (-1.8, 0.2, -2.3)Time is 23,92
+Bot position is (-1.8, 0.2, -2.4)Time is 23,94
+Bot position is (-1.8, 0.2, -2.5)Time is 23,96
+Bot position is (-1.9, 0.2, -2.5)Time is 23,98
+Bot position is (-1.9, 0.2, -2.6)Time is 24
+Bot position is (-2.0, 0.2, -2.7)Time is 24,02
+Bot position is (-2.0, 0.2, -2.7)Time is 24,04
+Bot position is (-2.0, 0.2, -2.8)Time is 24,06
+Bot position is (-2.1, 0.2, -2.9)Time is 24,08
+Bot position is (-2.1, 0.2, -2.9)Time is 24,1
+Bot position is (-2.2, 0.2, -3.0)Time is 24,12
+Bot position is (-2.2, 0.2, -3.1)Time is 24,14
+Bot position is (-2.2, 0.2, -3.1)Time is 24,16
+Bot position is (-2.3, 0.2, -3.2)Time is 24,18
+Bot position is (-2.3, 0.2, -3.3)Time is 24,2
+Bot position is (-2.4, 0.2, -3.4)Time is 24,22
+Bot position is (-2.4, 0.2, -3.4)Time is 24,24
+Bot position is (-2.4, 0.2, -3.5)Time is 24,26
+Bot position is (-2.5, 0.2, -3.6)Time is 24,28
+Bot position is (-2.5, 0.2, -3.6)Time is 24,3
+Bot position is (-2.6, 0.2, -3.7)Time is 24,32
+Bot position is (-2.6, 0.2, -3.8)Time is 24,34
+Bot position is (-2.6, 0.2, -3.8)Time is 24,36
+Bot position is (-2.7, 0.2, -3.9)Time is 24,38
+Bot position is (-2.7, 0.2, -4.0)Time is 24,4
+Bot position is (-2.8, 0.2, -4.0)Time is 24,42
+Bot position is (-2.8, 0.2, -4.1)Time is 24,44
+Bot position is (-2.8, 0.2, -4.2)Time is 24,46
+Bot position is (-2.9, 0.2, -4.3)Time is 24,48
+Bot position is (-2.9, 0.2, -4.3)Time is 24,5
+Bot position is (-3.0, 0.2, -4.4)Time is 24,52
+Bot position is (-3.0, 0.2, -4.5)Time is 24,54
+Bot position is (-3.0, 0.2, -4.5)Time is 24,56
+Bot position is (-3.1, 0.2, -4.6)Time is 24,58
+Bot position is (-3.1, 0.2, -4.7)Time is 24,6
+Bot position is (-3.2, 0.2, -4.7)Time is 24,62
+Bot position is (-3.2, 0.2, -4.8)Time is 24,64
+Bot position is (-3.2, 0.2, -4.9)Time is 24,66
+Bot position is (-3.3, 0.2, -4.9)Time is 24,68
+Bot position is (-3.3, 0.2, -5.0)Time is 24,7
+Bot position is (-3.4, 0.2, -5.1)Time is 24,72
+Bot position is (-3.4, 0.2, -5.2)Time is 24,74
+Bot position is (-3.4, 0.2, -5.2)Time is 24,76
+Bot position is (-3.5, 0.2, -5.3)Time is 24,78
+Bot position is (-3.5, 0.2, -5.4)Time is 24,8
+Bot position is (-3.6, 0.2, -5.4)Time is 24,82
+Bot position is (-3.6, 0.2, -5.5)Time is 24,84
+Bot position is (-3.6, 0.2, -5.6)Time is 24,86
+Bot position is (-3.7, 0.2, -5.6)Time is 24,88
+Bot position is (-3.7, 0.2, -5.7)Time is 24,9
+Bot position is (-3.8, 0.2, -5.8)Time is 24,92
+Bot position is (-3.8, 0.2, -5.8)Time is 24,94
+Bot position is (-3.8, 0.2, -5.9)Time is 24,96
+Bot position is (-3.9, 0.2, -6.0)Time is 24,98
+Bot position is (-3.9, 0.2, -6.1)Time is 25
+Bot position is (-4.0, 0.2, -6.1)Time is 25,02
+Bot position is (-4.0, 0.2, -6.2)Time is 25,04
+Bot position is (-4.0, 0.2, -6.3)Time is 25,06
+Bot position is (-4.1, 0.2, -6.3)Time is 25,08
+Bot position is (-4.1, 0.2, -6.4)Time is 25,1
+Bot position is (-4.2, 0.2, -6.5)Time is 25,12
+Bot position is (-4.2, 0.2, -6.5)Time is 25,14
+Bot position is (-4.2, 0.2, -6.6)Time is 25,16
+Bot position is (-4.3, 0.2, -6.7)Time is 25,18
+Bot position is (-4.3, 0.2, -6.8)Time is 25,2
+Bot position is (-4.4, 0.2, -6.8)Time is 25,22
+Bot position is (-4.4, 0.2, -6.9)Time is 25,24
+Bot position is (-4.4, 0.2, -7.0)Time is 25,26
+Bot position is (-4.5, 0.2, -7.0)Time is 25,28
+Bot position is (-4.5, 0.2, -7.1)Time is 25,3
+Bot position is (-4.6, 0.2, -7.2)Time is 25,32
+Bot position is (-4.6, 0.2, -7.2)Time is 25,34
+Bot position is (-4.6, 0.2, -7.3)Time is 25,36
+Bot position is (-4.7, 0.2, -7.4)Time is 25,38
+Bot position is (-4.7, 0.2, -7.4)Time is 25,4
+Bot position is (-4.8, 0.2, -7.5)Time is 25,42
+Bot position is (-4.8, 0.2, -7.6)Time is 25,44
+Bot position is (-4.8, 0.2, -7.7)Time is 25,46
+Bot position is (-4.9, 0.2, -7.7)Time is 25,48
+Bot position is (-4.9, 0.2, -7.8)Time is 25,5
+Bot position is (-5.0, 0.2, -7.9)Time is 25,52
+Bot position is (-5.0, 0.2, -7.9)Time is 25,54
+Bot rotated Time is 25,56
+Bot position is (-5.0, 0.2, -8.0)Time is 25,56
+Bot position is (-5.0, 0.2, -8.1)Time is 25,58
+Bot position is (-4.9, 0.2, -8.2)Time is 25,6
+Bot position is (-4.9, 0.2, -8.2)Time is 25,62
+Bot position is (-4.9, 0.2, -8.3)Time is 25,64
+Bot position is (-4.9, 0.2, -8.4)Time is 25,66
+Bot position is (-4.9, 0.2, -8.5)Time is 25,68
+Bot position is (-4.8, 0.2, -8.5)Time is 25,7
+Bot position is (-4.8, 0.2, -8.6)Time is 25,72
+Bot position is (-4.8, 0.2, -8.7)Time is 25,74
+Bot position is (-4.8, 0.2, -8.8)Time is 25,76
+Bot position is (-4.8, 0.2, -8.9)Time is 25,78
+Bot position is (-4.7, 0.2, -8.9)Time is 25,8
+Bot position is (-4.7, 0.2, -9.0)Time is 25,82
+Bot position is (-4.7, 0.2, -9.1)Time is 25,84
+Bot position is (-4.7, 0.2, -9.2)Time is 25,86
+Bot position is (-4.6, 0.2, -9.2)Time is 25,88
+Bot position is (-4.6, 0.2, -9.3)Time is 25,9
+Bot position is (-4.6, 0.2, -9.4)Time is 25,92
+Bot position is (-4.6, 0.2, -9.5)Time is 25,94
+Bot position is (-4.6, 0.2, -9.6)Time is 25,96
+Bot position is (-4.5, 0.2, -9.6)Time is 25,98
+Bot position is (-4.5, 0.2, -9.7)Time is 26
+Bot position is (-4.5, 0.2, -9.8)Time is 26,02
+Bot position is (-4.5, 0.2, -9.9)Time is 26,04
+Bot position is (-4.5, 0.2, -9.9)Time is 26,06
+Bot position is (-4.4, 0.2, -10.0)Time is 26,08
+Bot position is (-4.4, 0.2, -10.1)Time is 26,1
+Bot position is (-4.4, 0.2, -10.2)Time is 26,12
+Bot position is (-4.4, 0.2, -10.2)Time is 26,14
+Bot position is (-4.4, 0.2, -10.3)Time is 26,16
+Bot position is (-4.3, 0.2, -10.4)Time is 26,18
+Bot position is (-4.3, 0.2, -10.5)Time is 26,2
+Bot position is (-4.3, 0.2, -10.6)Time is 26,22
+Bot position is (-4.3, 0.2, -10.6)Time is 26,24
+Bot position is (-4.3, 0.2, -10.7)Time is 26,26
+Bot position is (-4.2, 0.2, -10.8)Time is 26,28
+Bot position is (-4.2, 0.2, -10.9)Time is 26,3
+Bot position is (-4.2, 0.2, -10.9)Time is 26,32
+Bot position is (-4.2, 0.2, -11.0)Time is 26,34
+Bot position is (-4.2, 0.2, -11.1)Time is 26,36
+Bot position is (-4.1, 0.2, -11.2)Time is 26,38
+Bot position is (-4.1, 0.2, -11.3)Time is 26,4
+Bot position is (-4.1, 0.2, -11.3)Time is 26,42
+Bot position is (-4.1, 0.2, -11.4)Time is 26,44
+Bot position is (-4.0, 0.2, -11.5)Time is 26,46
+Bot position is (-4.0, 0.2, -11.6)Time is 26,48
+Bot position is (-4.0, 0.2, -11.6)Time is 26,5
+Bot position is (-4.0, 0.2, -11.7)Time is 26,52
+Bot position is (-4.0, 0.2, -11.8)Time is 26,54
+Bot rotated Time is 26,56
+Bot position is (-4.0, 0.2, -11.8)Time is 26,56
+Bot position is (-4.1, 0.2, -11.8)Time is 26,58
+Bot position is (-4.2, 0.2, -11.8)Time is 26,6
+Bot position is (-4.3, 0.2, -11.8)Time is 26,62
+Bot position is (-4.4, 0.2, -11.8)Time is 26,64
+Bot position is (-4.4, 0.2, -11.8)Time is 26,66
+Bot position is (-4.5, 0.2, -11.8)Time is 26,68
+Bot position is (-4.6, 0.2, -11.8)Time is 26,7
+Bot position is (-4.7, 0.2, -11.9)Time is 26,72
+Bot position is (-4.8, 0.2, -11.9)Time is 26,74
+Bot position is (-4.8, 0.2, -11.9)Time is 26,76
+Bot position is (-4.9, 0.2, -11.9)Time is 26,78
+Bot position is (-5.0, 0.2, -11.9)Time is 26,8
+Bot position is (-5.1, 0.2, -11.9)Time is 26,82
+Bot position is (-5.2, 0.2, -11.9)Time is 26,84
+Bot position is (-5.2, 0.2, -11.9)Time is 26,86
+Bot position is (-5.3, 0.2, -11.9)Time is 26,88
+Bot position is (-5.4, 0.2, -11.9)Time is 26,9
+Bot position is (-5.5, 0.2, -11.9)Time is 26,92
+Bot position is (-5.6, 0.2, -11.9)Time is 26,94
+Bot position is (-5.6, 0.2, -11.9)Time is 26,96
+Bot position is (-5.7, 0.2, -11.9)Time is 26,98
+Bot position is (-5.8, 0.2, -12.0)Time is 27
+Bot position is (-5.9, 0.2, -12.0)Time is 27,02
+Bot position is (-6.0, 0.2, -12.0)Time is 27,04
+Bot position is (-6.0, 0.2, -12.0)Time is 27,06
+Bot position is (-6.1, 0.2, -12.0)Time is 27,08
+Bot position is (-6.2, 0.2, -12.0)Time is 27,1
+Bot position is (-6.3, 0.2, -12.0)Time is 27,12
+Bot position is (-6.4, 0.2, -12.0)Time is 27,14
+Bot position is (-6.4, 0.2, -12.0)Time is 27,16
+Bot position is (-6.5, 0.2, -12.0)Time is 27,18
+Bot position is (-6.6, 0.2, -12.0)Time is 27,2
+Bot position is (-6.7, 0.2, -12.0)Time is 27,22
+Bot position is (-6.8, 0.2, -12.0)Time is 27,24
+Bot position is (-6.8, 0.2, -12.0)Time is 27,26
+Bot position is (-6.9, 0.2, -12.0)Time is 27,28
+Bot position is (-7.0, 0.2, -12.1)Time is 27,3
+Bot position is (-7.1, 0.2, -12.1)Time is 27,32
+Bot position is (-7.2, 0.2, -12.1)Time is 27,34
+Bot position is (-7.2, 0.2, -12.1)Time is 27,36
+Bot position is (-7.3, 0.2, -12.1)Time is 27,38
+Bot position is (-7.4, 0.2, -12.1)Time is 27,4
+Bot position is (-7.5, 0.2, -12.1)Time is 27,42
+Bot position is (-7.6, 0.2, -12.1)Time is 27,44
+Bot position is (-7.6, 0.2, -12.1)Time is 27,46
+Bot position is (-7.7, 0.2, -12.1)Time is 27,48
+Bot position is (-7.8, 0.2, -12.1)Time is 27,5
+Bot position is (-7.9, 0.2, -12.1)Time is 27,52
+Bot position is (-7.9, 0.2, -12.1)Time is 27,54
+Bot is shouting Time is 27,56
+Bot position is (-7.9, 0.2, -12.1)Time is 27,56
+Bot is shouting Time is 27,58
+Bot position is (-7.9, 0.2, -12.1)Time is 27,58
+Bot is shouting Time is 27,6
+Bot position is (-7.9, 0.2, -12.1)Time is 27,6
+Bot is shouting Time is 27,62
+Bot position is (-7.9, 0.2, -12.1)Time is 27,62
+Bot is shouting Time is 27,64
+Bot position is (-7.9, 0.2, -12.1)Time is 27,64
+Bot is shouting Time is 27,66
+Bot position is (-7.9, 0.2, -12.1)Time is 27,66
+Bot is shouting Time is 27,68
+Bot position is (-7.9, 0.2, -12.1)Time is 27,68
+Bot is shouting Time is 27,7
+Bot position is (-7.9, 0.2, -12.1)Time is 27,7
+Bot is shouting Time is 27,72
+Bot position is (-7.9, 0.2, -12.1)Time is 27,72
+Bot is shouting Time is 27,74
+Bot position is (-7.9, 0.2, -12.1)Time is 27,74
+Bot is shouting Time is 27,76
+Bot position is (-7.9, 0.2, -12.1)Time is 27,76
+Bot is shouting Time is 27,78
+Bot position is (-7.9, 0.2, -12.1)Time is 27,78
+Bot is shouting Time is 27,8
+Bot position is (-7.9, 0.2, -12.1)Time is 27,8
+Bot is shouting Time is 27,82
+Bot position is (-7.9, 0.2, -12.1)Time is 27,82
+Bot is shouting Time is 27,84
+Bot position is (-7.9, 0.2, -12.1)Time is 27,84
+Bot is shouting Time is 27,86
+Bot position is (-7.9, 0.2, -12.1)Time is 27,86
+Bot is shouting Time is 27,88
+Bot position is (-7.9, 0.2, -12.1)Time is 27,88
+Bot is shouting Time is 27,9
+Bot position is (-7.9, 0.2, -12.1)Time is 27,9
+Bot is shouting Time is 27,92
+Bot position is (-7.9, 0.2, -12.1)Time is 27,92
+Bot is shouting Time is 27,94
+Bot position is (-7.9, 0.2, -12.1)Time is 27,94
+Bot is shouting Time is 27,96
+Bot position is (-7.9, 0.2, -12.1)Time is 27,96
+Bot is shouting Time is 27,98
+Bot position is (-7.9, 0.2, -12.1)Time is 27,98
+Bot is shouting Time is 28
+Bot position is (-7.9, 0.2, -12.1)Time is 28
+Bot is shouting Time is 28,02
+Bot position is (-7.9, 0.2, -12.1)Time is 28,02
+Bot is shouting Time is 28,04
+Bot position is (-7.9, 0.2, -12.1)Time is 28,04
+Bot is shouting Time is 28,06
+Bot position is (-7.9, 0.2, -12.1)Time is 28,06
+Bot is shouting Time is 28,08
+Bot position is (-7.9, 0.2, -12.1)Time is 28,08
+Bot is shouting Time is 28,1
+Bot position is (-7.9, 0.2, -12.1)Time is 28,1
+Bot is shouting Time is 28,12
+Bot position is (-7.9, 0.2, -12.1)Time is 28,12
+Bot is shouting Time is 28,14
+Bot position is (-7.9, 0.2, -12.1)Time is 28,14
+Bot is shouting Time is 28,16
+Bot position is (-7.9, 0.2, -12.1)Time is 28,16
+Bot is shouting Time is 28,18
+Bot position is (-7.9, 0.2, -12.1)Time is 28,18
+Bot is shouting Time is 28,2
+Bot position is (-7.9, 0.2, -12.1)Time is 28,2
+Bot is shouting Time is 28,22
+Bot position is (-7.9, 0.2, -12.1)Time is 28,22
+Bot is shouting Time is 28,24
+Bot position is (-7.9, 0.2, -12.1)Time is 28,24
+Bot is shouting Time is 28,26
+Bot position is (-7.9, 0.2, -12.1)Time is 28,26
+Bot is shouting Time is 28,28
+Bot position is (-7.9, 0.2, -12.1)Time is 28,28
+Bot is shouting Time is 28,3
+Bot position is (-7.9, 0.2, -12.1)Time is 28,3
+Bot is shouting Time is 28,32
+Bot position is (-7.9, 0.2, -12.1)Time is 28,32
+Bot is shouting Time is 28,34
+Bot position is (-7.9, 0.2, -12.1)Time is 28,34
+Bot is shouting Time is 28,36
+Bot position is (-7.9, 0.2, -12.1)Time is 28,36
+Bot is shouting Time is 28,38
+Bot position is (-7.9, 0.2, -12.1)Time is 28,38
+Bot is shouting Time is 28,4
+Bot position is (-7.9, 0.2, -12.1)Time is 28,4
+Bot is shouting Time is 28,42
+Bot position is (-7.9, 0.2, -12.1)Time is 28,42
+Bot is shouting Time is 28,44
+Bot position is (-7.9, 0.2, -12.1)Time is 28,44
+Bot is shouting Time is 28,46
+Bot position is (-7.9, 0.2, -12.1)Time is 28,46
+Bot is shouting Time is 28,48
+Bot position is (-7.9, 0.2, -12.1)Time is 28,48
+Bot is shouting Time is 28,5
+Bot position is (-7.9, 0.2, -12.1)Time is 28,5
+Bot is shouting Time is 28,52
+Bot position is (-7.9, 0.2, -12.1)Time is 28,52
+Bot is shouting Time is 28,54
+Bot position is (-7.9, 0.2, -12.1)Time is 28,54
+Bot position is (-8.0, 0.2, -12.1)Time is 28,56
+Bot position is (-8.1, 0.2, -12.2)Time is 28,58
+Bot position is (-8.2, 0.2, -12.2)Time is 28,6
+Bot position is (-8.3, 0.2, -12.2)Time is 28,62
+Bot position is (-8.3, 0.2, -12.2)Time is 28,64
+Bot position is (-8.4, 0.2, -12.2)Time is 28,66
+Bot position is (-8.5, 0.2, -12.2)Time is 28,68
+Bot position is (-8.6, 0.2, -12.2)Time is 28,7
+Bot position is (-8.7, 0.2, -12.2)Time is 28,72
+Bot position is (-8.7, 0.2, -12.2)Time is 28,74
+Bot position is (-8.8, 0.2, -12.2)Time is 28,76
+Bot position is (-8.9, 0.2, -12.2)Time is 28,78
+Bot position is (-9.0, 0.2, -12.2)Time is 28,8
+Bot position is (-9.1, 0.2, -12.2)Time is 28,82
+Bot position is (-9.1, 0.2, -12.2)Time is 28,84
+Bot position is (-9.2, 0.2, -12.3)Time is 28,86
+Bot position is (-9.3, 0.2, -12.3)Time is 28,88
+Bot position is (-9.4, 0.2, -12.3)Time is 28,9
+Bot position is (-9.5, 0.2, -12.3)Time is 28,92
+Bot position is (-9.5, 0.2, -12.3)Time is 28,94
+Bot position is (-9.6, 0.2, -12.3)Time is 28,96
+Bot position is (-9.7, 0.2, -12.3)Time is 28,98
+Bot position is (-9.8, 0.2, -12.3)Time is 29
+Bot position is (-9.9, 0.2, -12.3)Time is 29,02
+Bot position is (-9.9, 0.2, -12.3)Time is 29,04
+Bot position is (-10.0, 0.2, -12.3)Time is 29,06
+Bot position is (-10.1, 0.2, -12.3)Time is 29,08
+Bot position is (-10.2, 0.2, -12.3)Time is 29,1
+Bot position is (-10.3, 0.2, -12.3)Time is 29,12
+Bot position is (-10.3, 0.2, -12.3)Time is 29,14
+Bot position is (-10.4, 0.2, -12.4)Time is 29,16
+Bot position is (-10.5, 0.2, -12.4)Time is 29,18
+Bot position is (-10.6, 0.2, -12.4)Time is 29,2
+Bot position is (-10.7, 0.2, -12.4)Time is 29,22
+Bot position is (-10.7, 0.2, -12.4)Time is 29,24
+Bot position is (-10.8, 0.2, -12.4)Time is 29,26
+Bot position is (-10.9, 0.2, -12.4)Time is 29,28
+Bot position is (-11.0, 0.2, -12.4)Time is 29,3
+Bot position is (-11.1, 0.2, -12.4)Time is 29,32
+Bot position is (-11.1, 0.2, -12.4)Time is 29,34
+Bot position is (-11.2, 0.2, -12.4)Time is 29,36
+Bot position is (-11.3, 0.2, -12.4)Time is 29,38
+Bot position is (-11.4, 0.2, -12.4)Time is 29,4
+Bot position is (-11.5, 0.2, -12.4)Time is 29,42
+Bot position is (-11.5, 0.2, -12.5)Time is 29,44
+Bot position is (-11.6, 0.2, -12.5)Time is 29,46
+Bot position is (-11.7, 0.2, -12.5)Time is 29,48
+Bot position is (-11.8, 0.2, -12.5)Time is 29,5
+Bot position is (-11.9, 0.2, -12.5)Time is 29,52
+Bot position is (-11.9, 0.2, -12.5)Time is 29,54
+Bot position is (-12.0, 0.2, -12.5)Time is 29,56
+Bot position is (-12.1, 0.2, -12.5)Time is 29,58
+Bot position is (-12.2, 0.2, -12.5)Time is 29,6
+Bot position is (-12.3, 0.2, -12.5)Time is 29,62
+Bot position is (-12.3, 0.2, -12.5)Time is 29,64
+Bot position is (-12.4, 0.2, -12.5)Time is 29,66
+Bot position is (-12.5, 0.2, -12.5)Time is 29,68
+Bot position is (-12.6, 0.2, -12.5)Time is 29,7
+Bot position is (-12.7, 0.2, -12.6)Time is 29,72
+Bot position is (-12.7, 0.2, -12.6)Time is 29,74
+Bot position is (-12.8, 0.2, -12.6)Time is 29,76
+Bot position is (-12.9, 0.2, -12.6)Time is 29,78
+Bot position is (-13.0, 0.2, -12.6)Time is 29,8
+Bot position is (-13.1, 0.2, -12.6)Time is 29,82
+Bot position is (-13.1, 0.2, -12.6)Time is 29,84
+Bot position is (-13.2, 0.2, -12.6)Time is 29,86
+Bot position is (-13.3, 0.2, -12.6)Time is 29,88
+Bot position is (-13.4, 0.2, -12.6)Time is 29,9
+Bot position is (-13.4, 0.2, -12.6)Time is 29,92
+Bot position is (-13.5, 0.2, -12.6)Time is 29,94
+Bot position is (-13.6, 0.2, -12.6)Time is 29,96
+Bot position is (-13.7, 0.2, -12.6)Time is 29,98
+Bot position is (-13.8, 0.2, -12.6)Time is 30
+Bot position is (-13.8, 0.2, -12.7)Time is 30,02
+Bot position is (-13.9, 0.2, -12.7)Time is 30,04
+Bot position is (-14.0, 0.2, -12.7)Time is 30,06
+Bot position is (-14.1, 0.2, -12.7)Time is 30,08
+Bot position is (-14.2, 0.2, -12.7)Time is 30,1
+Bot position is (-14.2, 0.2, -12.7)Time is 30,12
+Bot position is (-14.3, 0.2, -12.7)Time is 30,14
+Bot position is (-14.4, 0.2, -12.7)Time is 30,16
+Bot position is (-14.5, 0.2, -12.7)Time is 30,18
+Bot position is (-14.6, 0.2, -12.7)Time is 30,2
+Bot position is (-14.6, 0.2, -12.7)Time is 30,22
+Bot position is (-14.7, 0.2, -12.7)Time is 30,24
+Bot position is (-14.8, 0.2, -12.7)Time is 30,26
+Bot position is (-14.9, 0.2, -12.7)Time is 30,28
+Bot position is (-15.0, 0.2, -12.8)Time is 30,3
+Bot position is (-15.0, 0.2, -12.8)Time is 30,32
+Bot position is (-15.1, 0.2, -12.8)Time is 30,34
+Bot position is (-15.2, 0.2, -12.8)Time is 30,36
+Bot position is (-15.3, 0.2, -12.8)Time is 30,38
+Bot position is (-15.4, 0.2, -12.8)Time is 30,4
+Bot position is (-15.4, 0.2, -12.8)Time is 30,42
+Bot position is (-15.5, 0.2, -12.8)Time is 30,44
+Bot position is (-15.6, 0.2, -12.8)Time is 30,46
+Bot position is (-15.7, 0.2, -12.8)Time is 30,48
+Bot position is (-15.8, 0.2, -12.8)Time is 30,5
+Bot position is (-15.8, 0.2, -12.8)Time is 30,52
+Bot position is (-15.9, 0.2, -12.8)Time is 30,54
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,56
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,58
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,6
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,62
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,64
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,66
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,68
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,7
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,72
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,74
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,76
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,78
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,8
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,82
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,84
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,86
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,88
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,9
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,92
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,94
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,96
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 30,98
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,02
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,04
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,06
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,08
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,1
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,12
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,14
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,16
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,18
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,2
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,22
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,24
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,26
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,28
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,3
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,32
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,34
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,36
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,38
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,4
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,42
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,44
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,46
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,48
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,5
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,52
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,54
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,56
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,58
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,6
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,62
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,64
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,66
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,68
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,7
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,72
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,74
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,76
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,78
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,8
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,82
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,84
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,86
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,88
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,9
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,92
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,94
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,96
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 31,98
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,02
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,04
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,06
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,08
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,1
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,12
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,14
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,16
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,18
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,2
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,22
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,24
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,26
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,28
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,3
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,32
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,34
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,36
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,38
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,4
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,42
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,44
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,46
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,48
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,5
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,52
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,54
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,56
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,58
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,6
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,62
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,64
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,66
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,68
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,7
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,72
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,74
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,76
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,78
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,8
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,82
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,84
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,86
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,88
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,9
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,92
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,94
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,96
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 32,98
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,02
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,04
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,06
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,08
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,1
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,12
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,14
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,16
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,18
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,2
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,22
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,24
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,26
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,28
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,3
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,32
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,34
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,36
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,38
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,4
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,42
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,44
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,46
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,48
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,5
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,52
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,54
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,56
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,58
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,6
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,62
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,64
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,66
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,68
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,7
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,72
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,74
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,76
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,78
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,8
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,82
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,84
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,86
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,88
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,9
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,92
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,94
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,96
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 33,98
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,02
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,04
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,06
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,08
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,1
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,12
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,14
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,16
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,18
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,2
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,22
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,24
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,26
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,28
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,3
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,32
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,34
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,36
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,38
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,4
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,42
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,44
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,46
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,48
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,5
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,52
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,54
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,56
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,58
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,6
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,62
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,64
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,66
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,68
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,7
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,72
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,74
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,76
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,78
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,8
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,82
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,84
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,86
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,88
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,9
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,92
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,94
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,96
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 34,98
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,02
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,04
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,06
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,08
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,1
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,12
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,14
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,16
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,18
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,2
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,22
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,24
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,26
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,28
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,3
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,32
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,34
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,36
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,38
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,4
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,42
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,44
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,46
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,48
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,5
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,52
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,54
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,56
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,58
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,6
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,62
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,64
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,66
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,68
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,7
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,72
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,74
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,76
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,78
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,8
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,82
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,84
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,86
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,88
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,9
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,92
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,94
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,96
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 35,98
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,02
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,04
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,06
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,08
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,1
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,12
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,14
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,16
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,18
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,2
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,22
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,24
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,26
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,28
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,3
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,32
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,34
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,36
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,38
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,4
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,42
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,44
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,46
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,48
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,5
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,52
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,54
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,56
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,58
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,6
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,62
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,64
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,66
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,68
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,7
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,72
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,74
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,76
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,78
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,8
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,82
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,84
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,86
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,88
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,9
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,92
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,94
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,96
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 36,98
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,02
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,04
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,06
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,08
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,1
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,12
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,14
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,16
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,18
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,2
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,22
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,24
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,26
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,28
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,3
+Bot test ended
+Bot position is (-15.9, 0.2, -12.8)Time is 37,32
+Bot test ended
+Bot position is (
