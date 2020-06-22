@@ -12,7 +12,7 @@ public class LocalTimeDisplayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BotMovementv2.SendMyTimeListners += SetText;
+       
         
     }
 
