@@ -38,19 +38,18 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
     float MyLocalTime;
     int rotationCounter = 0;
     int ServerHistoryIterator=0;
+    bool shooting = false;
 
     private void Rotate(Vector3 MoveDirection, float detaTime)
     {
         BotState = BotState.Rotating;
-        Usercmd newCmd = new Usercmd(Time.deltaTime, MoveDirection.y, MoveDirection.x, transform.rotation.eulerAngles.y,transform.position.x, transform.position.y);
+        Usercmd newCmd = new Usercmd(Time.deltaTime,PhotonNetwork.Time, MoveDirection.z, MoveDirection.x, transform.rotation.eulerAngles.y,transform.position.x, transform.position.y);
         history.Add(newCmd);
-
-        
+      
         Quaternion toRotation = Quaternion.FromToRotation(transform.up, MoveDirection);
         transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, speed * Time.time);
 
         transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(MoveDirection), detaTime*speed);
-
     }
 
     IEnumerator Rotate(float Angle)
@@ -58,7 +57,7 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
         float moveSpeed = 2f;
         float correction = 1;
 
-       // Debug.Log("Rotate " + transform.rotation.eulerAngles.y + " < " + Angle);
+        Debug.Log("Rotate " + transform.rotation.eulerAngles.y + " < " + Angle);
         while (transform.rotation.eulerAngles.y < Angle- correction)
         {
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, Angle, 0), moveSpeed * Time.deltaTime);
@@ -87,6 +86,29 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
 
     }
 
+    private void Shooting()
+    {
+        RaycastHit hit;
+        FireFlash.Play();
+        shooting = true;
+        if (Physics.Raycast(rayOrgin.position, rayOrgin.TransformDirection(Vector3.forward), out hit, 700))
+        {
+            Debug.DrawRay(rayOrgin.position, rayOrgin.TransformDirection(Vector3.forward) * hit.distance * 700, Color.red);
+            Debug.Log("hit");
+            if (hit.transform.tag == "Player")
+            {
+                Debug.Log("player hit");
+            }
+
+        }
+        else
+        {
+            Debug.DrawRay(rayOrgin.position, rayOrgin.TransformDirection(Vector3.forward) * hit.distance * 700, Color.white);
+            Debug.Log("no hit");
+        }
+    }
+
+
     void ExecuteCommand(Usercmd command)
     {
         if(command.forwardmove !=0 || command.sidemove != 0)
@@ -99,6 +121,11 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
             transform.rotation= Quaternion.Euler( new Vector3(0, command.rotationAngle, 0));
         }
 
+        if(command.shooting)
+        {
+            Debug.Log("SHOOOOOOTING");
+            Shooting();
+        }
     }
 
     private void Stand()
@@ -132,13 +159,13 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
 
     void MovmentScript()
     {
-        if(MyLocalTime+3>Time.time)
+        if(MyLocalTime+2>Time.time)
         {
             Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
 
             
         }
-        else if (MyLocalTime + 4 > Time.time && MyLocalTime + 3 < Time.time)
+        else if (MyLocalTime + 3 > Time.time && MyLocalTime + 2 < Time.time)
         {
             if (rotationCounter == 0)
             {
@@ -148,10 +175,30 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
 
             Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
         }
-        else if(MyLocalTime + 7 > Time.time && MyLocalTime + 4 < Time.time)
+        else if(MyLocalTime + 5 > Time.time && MyLocalTime + 3 < Time.time)
         {
          
             Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
+        }
+        else if (MyLocalTime + 7 > Time.time && MyLocalTime + 5 < Time.time)
+        {
+            if (rotationCounter == 1)
+            {
+                rotationCounter++;
+                StartCoroutine(Rotate(190));
+            }
+
+            Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
+        }
+        else if (MyLocalTime + 8 > Time.time && MyLocalTime + 7< Time.time)
+        {
+
+            Move(new Vector3(1.0f, 0, 0), Time.deltaTime);
+        }
+        else if (MyLocalTime + 9 > Time.time && MyLocalTime + 8 < Time.time)
+        {
+            Stand();
+            Shooting();
         }
         else
         {
@@ -166,7 +213,8 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
         {
             MovmentScript();
 
-            Usercmd newCmd = new Usercmd(Time.deltaTime, moveDir.z, moveDir.x, transform.rotation.eulerAngles.y, transform.position.x, transform.position.y);
+            Usercmd newCmd = new Usercmd(Time.deltaTime, PhotonNetwork.Time,moveDir.z, moveDir.x, transform.rotation.eulerAngles.y, transform.position.x, transform.position.y, shooting);
+            shooting = false; //maybe I can do that better
             history.Add(newCmd);
         }
         else

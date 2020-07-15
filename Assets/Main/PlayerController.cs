@@ -57,15 +57,15 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void MovesOutsidePlayerView()
-    {
-        if (Input.GetKeyUp(KeyCode.C))
-        {
-            Debug.Log("Creating REEEEEED BOT");
-            StartCoroutine(ExampleCoroutine());
-            //PhotonNetwork.Instantiate("RedServerClientTime", Vector3.one, Quaternion.identity);
-        }
-    }
+    //private void MovesOutsidePlayerView()
+    //{
+    //    if (Input.GetKeyUp(KeyCode.C))
+    //    {
+    //        Debug.Log("Creating REEEEEED BOT");
+    //        StartCoroutine(ExampleCoroutine());
+    //        //PhotonNetwork.Instantiate("RedServerClientTime", Vector3.one, Quaternion.identity);
+    //    }
+    //}
 
     [PunRPC]
     void CreateBot(string botString)
@@ -74,15 +74,16 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    IEnumerator ExampleCoroutine()
-    {
 
-        //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(1);
-        PhotonNetwork.Instantiate("RedServerClientTime", Vector3.one, Quaternion.identity);
+    //IEnumerator ExampleCoroutine()
+    //{
+
+    //    //yield on a new YieldInstruction that waits for 5 seconds.
+    //    yield return new WaitForSeconds(1);
+    //    PhotonNetwork.Instantiate("RedServerClientTime", Vector3.one, Quaternion.identity);
 
 
-    }
+    //}
 
     private void Movment()
     {
@@ -126,6 +127,14 @@ public class PlayerController : MonoBehaviour
 
                 photonView.RPC("CreateBot", RpcTarget.Others, "RedServerClientTime");
                
+            }
+            if (Input.GetKeyUp(KeyCode.U))
+            {
+                // Debug.Log("Creating Red bot");
+                PhotonNetwork.Instantiate("GreenCube", Vector3.one, Quaternion.identity);
+
+                photonView.RPC("CreateBot", RpcTarget.Others, "RedCube");
+
             }
 
 

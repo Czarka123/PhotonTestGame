@@ -38,5 +38,6 @@ MonoBehaviour:
   - CreateRedBot
   - CreateBot
   - RPC_getTime
+  - SendState
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1
