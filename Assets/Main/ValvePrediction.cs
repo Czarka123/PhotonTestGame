@@ -81,9 +81,7 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
 
         mD.y -= gravity * detaTime;
         Debug.Log("MOVEEE " + botColor + " :" + mD);
-        controller.Move(mD * detaTime);
-      
-
+        controller.Move(mD * detaTime);    
     }
 
     private void Shooting()

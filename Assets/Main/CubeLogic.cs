@@ -45,6 +45,10 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
        // PhotonPeer.RegisterType(typeof(Inputs), 2, Inputs.Serialize, Inputs.Deserialize);
         //PhotonPeer.RegisterType(typeof(InputMessage), 2, InputMessage.Serialize, InputMessage.Deserialize);
         PhotonPeer.RegisterType(typeof(StateMessage), 2, StateMessage.Serialize, StateMessage.Deserialize); //droższe rozwiazanie 
+        //PhotonNetwork.sendRateOnSerialize      
+        PhotonNetwork.SendRate = 50;
+        PhotonNetwork.SerializationRate = 50;
+        Debug.Log("SR " + PhotonNetwork.SendRate + " SS " + PhotonNetwork.SerializationRate);
     }
 
     void FixedUpdate()
