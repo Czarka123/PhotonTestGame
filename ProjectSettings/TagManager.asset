@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Cube
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -16,7 +16,7 @@ TagManager:
   - 
   - Cubes
   - Player
-  - 
+  - Target
   - 
   - 
   - 
@@ -41,4 +41,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 
+    uniqueID: 97303637
     locked: 0

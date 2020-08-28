@@ -20,6 +20,7 @@ public class Action
 
     public Action()
     {
+        sequence_number = -1;
     }
 
     public Action(float postionX, float postionY, float postionZ, int sequence_number, int animationState, float rotationAngle, bool shooting)

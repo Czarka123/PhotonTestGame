@@ -70,8 +70,15 @@ public class PlayerController : MonoBehaviour
     [PunRPC]
     void CreateBot(string botString)
     {
-        PhotonNetwork.Instantiate(botString, Vector3.one, Quaternion.identity);
+        PhotonNetwork.Instantiate(botString, Vector3.zero, Quaternion.identity);
     }
+
+    [PunRPC]
+    void CreateBot(string botString, Vector3 postion)
+    {
+        PhotonNetwork.Instantiate(botString, postion, Quaternion.identity);
+    }
+
 
 
 
@@ -123,10 +130,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.C))
             {
                 // Debug.Log("Creating Red bot");
-                PhotonNetwork.Instantiate("GreenLocalClientTime", Vector3.one, Quaternion.identity);
-
+                PhotonNetwork.Instantiate("GreenLocalClientTime", Vector3.zero, Quaternion.identity);
+                //PhotonNetwork.Instantiate("TargetBot", new Vector3(20, 0.2f, 14.65f), Quaternion.identity);
                 photonView.RPC("CreateBot", RpcTarget.Others, "RedServerClientTime");
-               
+                photonView.RPC("CreateBot", RpcTarget.Others, "TargetBot",new Vector3(20, 0.2f, 14.65f));
+
             }
             if (Input.GetKeyUp(KeyCode.U))
             {

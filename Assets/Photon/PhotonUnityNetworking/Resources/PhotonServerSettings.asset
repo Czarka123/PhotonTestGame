@@ -39,5 +39,7 @@ MonoBehaviour:
   - CreateBot
   - RPC_getTime
   - SendState
+  - ClientAdjustPosition
+  - ServerMove
   DisableAutoOpenWizard: 1
   ShowSettings: 1

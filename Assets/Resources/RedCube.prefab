@@ -82,6 +82,11 @@ PrefabInstance:
       propertyPath: isGreen
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687596171089993301, guid: f8367c3b6df427147896f082f02129a7,
+        type: 3}
+      propertyPath: InterpolationOn
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6305643836829393405, guid: f8367c3b6df427147896f082f02129a7,
         type: 3}
       propertyPath: viewIdField

@@ -1,11 +1,13 @@
 ﻿using ExitGames.Client.Photon;
 using Photon.Pun;
 using Photon.Realtime;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+
 
 public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
 {
@@ -14,13 +16,18 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
     public float speed = 0.1f;
     public float player_jump_y_threshold =5.0f;
     public bool isGreen;
+    public bool InterpolationOn=true;
+
     Inputs currentInput;
     StateMessage currentState;
-
-
+    StateMessage goalState;
+    StateMessage LastState;
+    StateMessage LastSavedState;
 
     List<StateMessage> history;
     Queue<StateMessage> newStateMessages;
+
+    Queue<StateMessage> InterpolationBuffer;
 
     public uint tick_number;
 
@@ -29,11 +36,15 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
 
 
     private float timer;
+    private float journeyLength;
 
     private float MyLocalTime;
+    private bool interpolationg = false;
 
     private Vector3 client_pos_error;
     private Quaternion client_rot_error;
+
+    float mycountertest = 0;
 
     private void Start()
     {
@@ -42,7 +53,11 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
         photonView = GetComponent<PhotonView>();
         history = new List<StateMessage>();
         newStateMessages = new Queue<StateMessage>();
-       // PhotonPeer.RegisterType(typeof(Inputs), 2, Inputs.Serialize, Inputs.Deserialize);
+        InterpolationBuffer = new Queue<StateMessage>();
+        LastSavedState = new StateMessage();
+        LastSavedState.tick_number = 0; //for checking first send
+        LastState.tick_number = 0;
+        // PhotonPeer.RegisterType(typeof(Inputs), 2, Inputs.Serialize, Inputs.Deserialize);
         //PhotonPeer.RegisterType(typeof(InputMessage), 2, InputMessage.Serialize, InputMessage.Deserialize);
         PhotonPeer.RegisterType(typeof(StateMessage), 2, StateMessage.Serialize, StateMessage.Deserialize); //droższe rozwiazanie 
         //PhotonNetwork.sendRateOnSerialize      
@@ -59,7 +74,14 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
             {
                 if (isGreen)
                 {
-                    SimulateFromInput(MovmentOrder());
+                    //mycountertest++;
+                    //if (mycountertest <= 10)
+                    //{
+                    //    Debug.Log(" hermite interpolation from" + Vector3.one + " to " + new Vector3(3f, 2f, 2f) +" counter "+ mycountertest + " value : " + (mycountertest / 10));
+                    //    Debug.Log(" HERMITE interpolation : " + Hermite(Vector3.one, new Vector3(3f, 2f, 2f), (mycountertest / 10)));
+                    //}
+
+                    SimulateFromInput(MovmentOrderv2());
                     byte evCode = 1;
                     RaiseEventOptions raiseEventOptions = new RaiseEventOptions { Receivers = ReceiverGroup.Others };
                     SendOptions sendOptions = new SendOptions { Reliability = true };
@@ -77,15 +99,59 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
 
     void Read()
     {
-        if (history != null && newStateMessages != null && newStateMessages.Count>0)
+        if (InterpolationOn)
         {
-            StateMessage state_msg = newStateMessages.Dequeue();
-            currentState = state_msg;
-            SimulateFromState(state_msg);
+            SetInterpolation();
+
         }
         else
         {
-            SimulateFromState(currentState);
+            if (history != null && newStateMessages != null && newStateMessages.Count > 0)
+            {
+                StateMessage state_msg = newStateMessages.Dequeue();
+                currentState = state_msg;
+                SimulateFromState(state_msg);
+
+            }
+            else
+            {
+                SimulateFromState(currentState);
+
+            }
+        }
+    }
+
+    void SetInterpolation()
+    {
+        if (InterpolationBuffer != null && InterpolationBuffer.Count > 1 && !interpolationg)
+        {
+            Debug.Log("interpolation");
+            interpolationg = true;
+            if (LastState.tick_number == 0)
+            {
+                LastState = InterpolationBuffer.Dequeue();
+            }
+            else
+            {
+                LastState = goalState;
+            }
+
+            goalState = InterpolationBuffer.Dequeue();
+            MyLocalTime = Time.time;
+            // journeyLength = Vector3.Distance(LastState.getPosition(), currentState.getPosition());
+
+            // Debug.Log("Journey distance from " + LastState.getPosition() + " to " + currentState.getPosition());
+        }
+
+        if (interpolationg)
+        {
+            SimulateFromStateInterpolationHermite(LastState, goalState);
+            float distance = Mathf.Abs(Vector3.Distance(cube_rigidbody.position, goalState.getPosition()));  //transform for linear
+            Debug.Log("distance interpolation " + distance);
+            if (distance < 0.03f) //was  0.01f
+            {
+                interpolationg = false;
+            }
         }
     }
 
@@ -193,6 +259,69 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
         }
     }
 
+    private void SimulateFromStateInterpolationLinear(StateMessage LastStateMsg, StateMessage CurrentStateMsg)
+    {
+
+
+
+        transform.rotation = Quaternion.Lerp(LastStateMsg.getRotation(), CurrentStateMsg.getRotation(), Time.time * 6);
+
+        //Debug.Log(" packet to interpolate " + journeyLength);
+
+        //Debug.Log(" packet to interpolate " + CurrentStateMsg.tick_number + " and time " + CurrentStateMsg.delivery_time + " postion: " + CurrentStateMsg.getPosition() + " buffor size " + InterpolationBuffer.Count);
+        float distCovered = (Time.time - MyLocalTime) * 6;
+        float fractionOfJourney = distCovered / journeyLength;
+        transform.position = Vector3.Lerp(LastStateMsg.getPosition(), CurrentStateMsg.getPosition(), fractionOfJourney);
+
+    }
+
+    private void SimulateFromStateInterpolationHermite(StateMessage LastStateMsg, StateMessage CurrentStateMsg)
+    {
+        //Debug.Log("hermite ~!");
+
+
+        //transform.rotation = Quaternion.Slerp(LastStateMsg.getRotation(), CurrentStateMsg.getRotation(), Time.time * 6);
+
+        float speedof = 6f;
+        journeyLength = Vector3.Distance(LastStateMsg.getPosition(), CurrentStateMsg.getPosition());
+      //  Debug.Log("frome: "+ LastStateMsg.getPosition()+ "  to : "+ CurrentStateMsg.getPosition()+" distance " + journeyLength);
+
+        //Debug.Log(" packet to interpolate " + CurrentStateMsg.tick_number + " and time " + CurrentStateMsg.delivery_time + " postion: " + CurrentStateMsg.getPosition() + " buffor size " + InterpolationBuffer.Count);
+        float distCovered = Vector3.Distance(LastStateMsg.getPosition(), cube_rigidbody.position);
+        float fractionOfJourney = (distCovered / journeyLength);
+        if((fractionOfJourney + 0.1f)<1)
+        {
+            //Debug.Log(" fract of journey " + fractionOfJourney);
+            fractionOfJourney += 0.1f;
+            Vector3 hermite = Hermite(LastStateMsg.getPosition(), CurrentStateMsg.getPosition(), fractionOfJourney);
+           // Debug.Log("my postion " + transform.position + " hermite postion " + hermite + " goal " + CurrentStateMsg.getPosition() + " dist coverd " + distCovered + " fract of journey " + fractionOfJourney);
+            cube_rigidbody.position = hermite;
+        }
+        else
+        {
+            fractionOfJourney = 1f;
+          //  Debug.Log("my postion " + transform.position + " hermite postion " + CurrentStateMsg.getPosition() + " goal " + CurrentStateMsg.getPosition() + " dist coverd " + distCovered + " fract of journey " + fractionOfJourney);
+            cube_rigidbody.position = CurrentStateMsg.getPosition();
+        }
+      
+        //transform.position = hermite;
+     
+        cube_rigidbody.rotation = Quaternion.Slerp(LastStateMsg.getRotation(), CurrentStateMsg.getRotation(), Time.time * speedof);
+        //cube_rigidbody.velocity = Hermite(LastStateMsg.getVelocity(), CurrentStateMsg.getVelocity(), fractionOfJourney);
+        cube_rigidbody.velocity = CurrentStateMsg.getVelocity();
+        cube_rigidbody.angularVelocity = Vector3.Slerp(LastStateMsg.getVelocity_Angular(), CurrentStateMsg.getVelocity_Angular(), Time.time * speedof);
+    }
+
+    public static float Hermite(float start, float end, float value)
+    {
+        return Mathf.Lerp(start, end, value * value * (3.0f - 2.0f * value));
+    }
+
+    public static Vector3 Hermite(Vector3 start, Vector3 end, float value)
+    {
+        return new Vector3(Hermite(start.x, end.x, value), Hermite(start.y, end.y, value), Hermite(start.z, end.z, value));
+    }
+
 
     private StateMessage GetState(Inputs input)
     {
@@ -287,6 +416,135 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
         return new Inputs();
     }
 
+    private Inputs MovmentOrderv2()
+    {
+        if (MyLocalTime + 1 > Time.time)
+        {
+            Debug.Log("ups");
+            Inputs inputs = new Inputs();
+            inputs.up = true;
+            return inputs;
+        }
+        else if (MyLocalTime + 1.5 > Time.time && MyLocalTime + 1 < Time.time)
+        {
+            Debug.Log("lefts");
+            Inputs inputs = new Inputs();
+            inputs.left = true;
+            return inputs;
+        }
+        else if (MyLocalTime + 2 > Time.time && MyLocalTime + 1.5 < Time.time)
+        {
+            Debug.Log("jumpy");
+            Inputs inputs = new Inputs();
+            inputs.left = true;
+            inputs.down = true;
+            return inputs;
+        }
+        else if (MyLocalTime + 3 > Time.time && MyLocalTime + 2 < Time.time)
+        {
+            Debug.Log("right");
+            Inputs inputs = new Inputs();
+            inputs.right = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 3.5 > Time.time && MyLocalTime + 3 < Time.time)
+        {
+            Debug.Log("right");
+            Inputs inputs = new Inputs();
+            inputs.jump = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 4 > Time.time && MyLocalTime + 3.5 < Time.time)
+        {
+            Debug.Log("ups");
+            Inputs inputs = new Inputs();
+            inputs.up = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 4.5 > Time.time && MyLocalTime + 4 < Time.time)
+        {
+            Debug.Log("break");
+            Inputs inputs = new Inputs();
+
+
+            return inputs;
+        }
+        else if (MyLocalTime + 5 > Time.time && MyLocalTime + 4.5 < Time.time)
+        {
+           
+            Inputs inputs = new Inputs();
+            inputs.left = true;
+            inputs.up = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 6 > Time.time && MyLocalTime + 5 < Time.time)
+        {
+
+            Inputs inputs = new Inputs();
+            inputs.down = true;
+         
+
+            return inputs;
+        }
+        else if (MyLocalTime + 6.5 > Time.time && MyLocalTime + 6 < Time.time)
+        {
+
+            Inputs inputs = new Inputs();
+            inputs.left = true;
+            inputs.jump = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 7 > Time.time && MyLocalTime + 6.5 < Time.time)
+        {
+
+            Inputs inputs = new Inputs();          
+            inputs.up = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 8 > Time.time && MyLocalTime + 7.5 < Time.time)
+        {
+
+            Inputs inputs = new Inputs();
+            inputs.right = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 9 > Time.time && MyLocalTime + 8 < Time.time)
+        {
+
+            Inputs inputs = new Inputs();
+            inputs.down = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 9.5 > Time.time && MyLocalTime + 9 < Time.time)
+        {
+
+            Inputs inputs = new Inputs();
+            inputs.left = true;
+            inputs.jump = true;
+
+            return inputs;
+        }
+        else if (MyLocalTime + 11 > Time.time && MyLocalTime + 9.5 < Time.time)
+        {
+
+            Inputs inputs = new Inputs();
+            inputs.up = true;
+  
+
+            return inputs;
+        }
+
+        return new Inputs();
+    }
+
     private void AddForcesToPlayer(Inputs inputs)
     {
        // Debug.Log(name + "  "+inputs.up );
@@ -342,6 +600,28 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
             if (newStateMessages != null)
             {
                 newStateMessages.Enqueue(recivepack);
+                if (InterpolationOn)
+                {
+                    if (LastSavedState.tick_number==0)
+                    {
+                        LastSavedState = recivepack;
+                        InterpolationBuffer.Enqueue(recivepack);
+                    }
+                    else 
+                    {
+                        float dis = Vector3.Distance(LastSavedState.getPosition(), recivepack.getPosition());
+                        float angDis = Quaternion.Angle(LastSavedState.getRotation(), recivepack.getRotation());
+                     
+                        if (dis>0.7f || angDis>25)  //0.2 10
+                        {
+                            Debug.Log("distance " + dis + " angle dis " + angDis);
+                            LastSavedState = recivepack;
+                            InterpolationBuffer.Enqueue(recivepack);
+                        }
+                       
+                    }
+                 
+                }
             }
             //history.Add(recivepack);
 
@@ -351,6 +631,8 @@ public class CubeLogic : MonoBehaviour, IPunObservable, IOnEventCallback
 
         }
     }
+
+
 
     public void OnEvent(EventData photonEvent)
     {

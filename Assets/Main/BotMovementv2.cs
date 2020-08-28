@@ -8,7 +8,8 @@ public enum BotColor
 {
     Green,
     Red,
-    Yellow
+    Yellow,
+    Target
 }
 
 public enum BotState

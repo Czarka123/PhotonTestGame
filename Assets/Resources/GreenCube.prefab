@@ -127,6 +127,7 @@ MonoBehaviour:
   speed: 2
   player_jump_y_threshold: 5
   isGreen: 1
+  InterpolationOn: 0
   tick_number: 0
   player: {fileID: 7620959668487356315}
 --- !u!114 &6305643836829393405

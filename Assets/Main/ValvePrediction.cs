@@ -1,10 +1,11 @@
 ﻿using ExitGames.Client.Photon;
 using Photon.Pun;
+using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ValvePrediction : MonoBehaviour, IPunObservable
+public class ValvePrediction : MonoBehaviour, IPunObservable, IOnEventCallback
 {
     float speed = 4;
     float gravity = 9;
@@ -28,6 +29,10 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
     private BotColor botColor;
     [SerializeField]
     private ParticleSystem FireFlash;
+    [SerializeField]
+    private GameObject LaserEffect;
+
+    private GameObject LaserObject;
 
     public BotState BotState;
 
@@ -80,7 +85,7 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
         mD = transform.TransformDirection(mD);
 
         mD.y -= gravity * detaTime;
-        Debug.Log("MOVEEE " + botColor + " :" + mD);
+     //   Debug.Log("MOVEEE " + botColor + " :" + mD);
         controller.Move(mD * detaTime);    
     }
 
@@ -88,6 +93,7 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
     {
         RaycastHit hit;
         FireFlash.Play();
+        StartCoroutine(LaserAnimation(0.2f));
         shooting = true;
         if (Physics.Raycast(rayOrgin.position, rayOrgin.TransformDirection(Vector3.forward), out hit, 700))
         {
@@ -97,6 +103,21 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
             {
                 Debug.Log("player hit");
             }
+            else if (hit.transform.tag == "Target")
+            {
+                Debug.Log("Target hit at postion "+ hit.transform.position + " "+ botColor + " " + photonView.IsMine);
+                if (botColor == BotColor.Green && photonView.IsMine)
+                {
+                    Usercmd hitReport = new Usercmd(Time.time, PhotonNetwork.Time, 0, 0, 0, hit.transform.position.x, hit.transform.position.z);
+
+                    byte evCode = 1;
+                    RaiseEventOptions raiseEventOptions = new RaiseEventOptions { Receivers = ReceiverGroup.Others };
+                    SendOptions sendOptions = new SendOptions { Reliability = true };                
+                    PhotonNetwork.RaiseEvent(evCode, hitReport, raiseEventOptions, sendOptions);
+                    Debug.Log("sending to target");
+                }
+            }
+
 
         }
         else
@@ -106,6 +127,22 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
         }
     }
 
+    private void EnableLaser()
+    {
+        LaserObject.SetActive(true);
+        LaserObject.GetComponentInChildren<ParticleSystem>().Play();
+    }
+
+    IEnumerator LaserAnimation(float time)
+    {
+        EnableLaser();
+
+        yield return new WaitForSeconds(time);
+
+        LaserObject.SetActive(false);
+    }
+
+
 
     void ExecuteCommand(Usercmd command)
     {
@@ -114,6 +151,12 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
             Vector3 MoveDirection = new Vector3(command.sidemove, 0, command.forwardmove);
             Move(MoveDirection, Time.deltaTime);
         }
+        else if (command.forwardmove == 0 && command.sidemove == 0)
+        {
+           // Debug.Log("STANNNNDING");
+            Stand();
+        }
+
         if(command.rotationAngle != transform.rotation.eulerAngles.y)
         {
             transform.rotation= Quaternion.Euler( new Vector3(0, command.rotationAngle, 0));
@@ -121,7 +164,7 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
 
         if(command.shooting)
         {
-            Debug.Log("SHOOOOOOTING");
+           // Debug.Log("SHOOOOOOTING");
             Shooting();
         }
     }
@@ -145,6 +188,9 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
         Destroy(playerCamera);
         Destroy(playerAudio);
 
+        LaserObject = Instantiate(LaserEffect, rayOrgin);
+        LaserObject.SetActive(false);
+
         controller.detectCollisions = false;
    
         BotState = BotState.Standing;
@@ -153,11 +199,56 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
         MyLocalTime = Time.time;
 
         PhotonPeer.RegisterType(typeof(Usercmd), 2, Usercmd.Serialize, Usercmd.Deserialize);
+
+        PhotonNetwork.SendRate = 60;
+        PhotonNetwork.SerializationRate = 60;
+    }
+
+    void TargetMovmentScript()
+    {
+        if (Mathf.CeilToInt(Time.time) % 4 == 0 || Mathf.CeilToInt(Time.time) % 4 == 1)
+        {
+            Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
+
+        }
+        else if (Mathf.CeilToInt(Time.time) % 4 == 2 || Mathf.CeilToInt(Time.time) % 4 == 3)
+        {
+            Move(new Vector3(0, 0, -1.0f), Time.deltaTime);
+        }
+
+        //Stand();
     }
 
     void MovmentScript()
     {
-        if(MyLocalTime+2>Time.time)
+        if (MyLocalTime + 3 > Time.time)
+        {
+            Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
+
+        }
+        else if (MyLocalTime + 6 > Time.time && MyLocalTime + 3 < Time.time)
+        {
+            if (rotationCounter == 0)
+            {
+                rotationCounter++;
+                StartCoroutine(Rotate(90));
+            }
+
+            Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
+        }
+        else if (MyLocalTime + 8 > Time.time && MyLocalTime + 6 < Time.time)
+        {          
+            Shooting();
+            Stand();
+        }
+        else
+        {
+            Stand();
+        }
+    }
+
+    /*
+      if(MyLocalTime+2>Time.time)
         {
             Move(new Vector3(0, 0, 1.0f), Time.deltaTime);
 
@@ -193,7 +284,7 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
 
             Move(new Vector3(1.0f, 0, 0), Time.deltaTime);
         }
-        else if (MyLocalTime + 9 > Time.time && MyLocalTime + 8 < Time.time)
+        else if (MyLocalTime + 10 > Time.time && MyLocalTime + 8 < Time.time)
         {
             Stand();
             Shooting();
@@ -201,23 +292,43 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
         else
         {
             Stand();
-        }
-    }
+        } 
+     */
+
+
+
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (photonView.IsMine)
+        if (botColor != BotColor.Target)
         {
-            MovmentScript();
+            if (photonView.IsMine)
+            {
+                shooting = false; //maybe I can do that better
+                MovmentScript();
 
-            Usercmd newCmd = new Usercmd(Time.deltaTime, PhotonNetwork.Time,moveDir.z, moveDir.x, transform.rotation.eulerAngles.y, transform.position.x, transform.position.y, shooting);
-            shooting = false; //maybe I can do that better
-            history.Add(newCmd);
+                Usercmd newCmd = new Usercmd(Time.deltaTime, PhotonNetwork.Time, moveDir.z, moveDir.x, transform.rotation.eulerAngles.y, transform.position.x, transform.position.y, shooting);
+                history.Add(newCmd);
+
+            }
+            else
+            {
+                Read();
+            }
         }
         else
         {
-            Read();
+            if (photonView.IsMine)
+            {
+                TargetMovmentScript();
+                Usercmd newCmd = new Usercmd(Time.deltaTime, PhotonNetwork.Time, moveDir.z, moveDir.x, transform.rotation.eulerAngles.y, transform.position.x, transform.position.y, shooting);
+                history.Add(newCmd);
+            }
+            else
+            {
+                Read();
+            }
         }
     }
 
@@ -244,17 +355,46 @@ public class ValvePrediction : MonoBehaviour, IPunObservable
     {
         if (stream.IsWriting)
         {
-           
-           
-           stream.SendNext(history[history.Count-1]);
+
+            if (history != null && history.Count > 0)
+            {
+                stream.SendNext(history[history.Count - 1]);
+            }
         }
         else
         {
             Usercmd recivepack = (Usercmd)stream.ReceiveNext();
-
-            Debug.Log(" got " + recivepack.sidemove + "   s " + recivepack.forwardmove + " rotation angle "+ recivepack.rotationAngle + " postion "+ recivepack.postionX + recivepack.postionY);
-            if(ServerHistory!=null)
+            if (botColor == BotColor.Target)
+            {
+                Debug.Log(" got " + recivepack.sidemove + "   s " + recivepack.forwardmove + " rotation angle " + recivepack.rotationAngle + " postion " + recivepack.postionX + recivepack.postionY + " shooting " + recivepack.shooting);
+            }
+            if (ServerHistory != null)
                 ServerHistory.Add(recivepack);
         }
+    }
+
+    public void OnEvent(EventData photonEvent)
+    {
+        Debug.Log("msg to " + botColor + " " + photonEvent.Code);
+        if (photonEvent.Code == 1)
+        {
+           
+            if (botColor == BotColor.Target)
+            {
+                Usercmd action = (Usercmd)photonEvent.CustomData;
+                Debug.Log("got hit on client " + action.timestamp + " at postion X" + action.postionX + " Z " + action.postionY);
+                Debug.Log("Locally on hit I'm " + PhotonNetwork.Time + " at postion " + transform.position);
+            }
+        }
+    }
+
+    private void OnEnable()
+    {
+        PhotonNetwork.AddCallbackTarget(this);
+    }
+
+    private void OnDisable()
+    {
+        PhotonNetwork.RemoveCallbackTarget(this);
     }
 }
