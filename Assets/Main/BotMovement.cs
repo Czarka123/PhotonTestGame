@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class BotMovement : MonoBehaviour
 {
+    //don't used in final mplementation
     float speed = 4;
     float gravity = 9;
 
@@ -34,7 +35,7 @@ public class BotMovement : MonoBehaviour
         Destroy(playerCamera);
         Destroy(playerAudio);
 
-        logfile = new System.IO.StreamWriter(@"C:\Users\Godzinski\gitRepos\PhotonTestGame\Assets\textLogFile2.txt");
+        logfile = new System.IO.StreamWriter(@"");
         logfile.WriteLine("Second test ");
         StartTime = Time.time;
     }

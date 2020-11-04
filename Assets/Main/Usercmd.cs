@@ -12,29 +12,7 @@ using UnityEngine;
 [Serializable()]
 public class Usercmd 
 {
-    public Usercmd(float msec, double timestamp, float forwardmove, float sidemove, float rotationAngle, float postionX, float postionY)
-    {
-        this.msec = msec;
-        this.timestamp = timestamp;
-        this.forwardmove = forwardmove;
-        this.sidemove = sidemove;
-        this.rotationAngle = rotationAngle;
-        this.postionX = postionX;
-        this.postionY = postionY;
-        shooting = false;
-    }
-
-    public Usercmd(float msec, double timestamp, float forwardmove, float sidemove, float rotationAngle, float postionX, float postionY, bool shooting)
-    {
-        this.msec = msec;
-        this.timestamp = timestamp;
-        this.forwardmove = forwardmove;
-        this.sidemove = sidemove;
-        this.rotationAngle = rotationAngle;
-        this.postionX = postionX;
-        this.postionY = postionY;
-        this.shooting = shooting;
-    }
+  
 
 
     //short lerp_msec;
@@ -66,9 +44,41 @@ public class Usercmd
 
     public float postionY { get; set; }
 
-    public bool shooting { get; set; } //can be enum with player actions
+    public bool shooting { get; set; } 
 
+    public Usercmd()
+    {
+        timestamp = 0;
+    }
 
+    public Usercmd(float msec, double timestamp, float forwardmove, float sidemove, float rotationAngle, float postionX, float postionY)
+    {
+        this.msec = msec;
+        this.timestamp = timestamp;
+        this.forwardmove = forwardmove;
+        this.sidemove = sidemove;
+        this.rotationAngle = rotationAngle;
+        this.postionX = postionX;
+        this.postionY = postionY;
+        shooting = false;
+    }
+
+    public Usercmd(float msec, double timestamp, float forwardmove, float sidemove, float rotationAngle, float postionX, float postionY, bool shooting)
+    {
+        this.msec = msec;
+        this.timestamp = timestamp;
+        this.forwardmove = forwardmove;
+        this.sidemove = sidemove;
+        this.rotationAngle = rotationAngle;
+        this.postionX = postionX;
+        this.postionY = postionY;
+        this.shooting = shooting;
+    }
+
+    public Vector3 getPostion()
+    {
+        return new Vector3(postionX, 0, postionY);
+    }
 
     public static object Deserialize(byte[] data)
     {

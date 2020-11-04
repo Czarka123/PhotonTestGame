@@ -128,6 +128,7 @@ MonoBehaviour:
   player_jump_y_threshold: 5
   isGreen: 1
   InterpolationOn: 0
+  SmoothCorrection: 1
   tick_number: 0
   player: {fileID: 7620959668487356315}
 --- !u!114 &6305643836829393405
@@ -164,6 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
+  m_SynchronizePosition: 0
   m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
+  m_SynchronizeScale: 1

@@ -8,6 +8,14 @@ using UnityEngine;
 //[Serializable()]
 public struct Inputs
 {
+
+    public bool up { get; set; }
+    public bool down { get; set; }
+    public bool right { get; set; }
+    public bool left { get; set; }
+    public bool jump { get; set; }
+
+
     public Inputs(bool up, bool down, bool right, bool left, bool jump) : this()
     {
         this.up = up;
@@ -16,12 +24,6 @@ public struct Inputs
         this.left = left;
         this.jump = jump;
     }
-
-    public bool up { get; set; }
-    public bool down { get; set; }
-    public bool right { get; set; }
-    public bool left { get; set; }
-    public bool jump { get; set; }
 
 
 

@@ -28,7 +28,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0.597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6200653217253805591}
+  m_Father: {fileID: 5941581075645150958}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -50,7 +50,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
@@ -97,36 +97,37 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30886cb244fd95d4fb17faebbdc6bbfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rayOrgin: {fileID: 759064209684368159}
-  playerCamera: {fileID: 5941581075523332276}
-  playerAudio: {fileID: 5941581075523332283}
+  playerCamera: {fileID: 5941581075645151880}
+  playerAudio: {fileID: 5941581075645151533}
   botColor: 0
-  FireFlash: {fileID: 8373936583355714054}
+  FireFlash: {fileID: 4473082484161007368}
   LaserEffect: {fileID: 5907752856185028865, guid: 6b79850dd3e1c104f8bd2d7fd3003037,
     type: 3}
+  queueActive: 0
 --- !u!114 &2751211559652665986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 020f186c6b9acac45b0d32158d7a34b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rayOrgin: {fileID: 759064209684368159}
-  playerCamera: {fileID: 5941581075523332276}
-  playerAudio: {fileID: 5941581075523332283}
+  playerCamera: {fileID: 5941581075645151880}
+  playerAudio: {fileID: 5941581075645151533}
   botColor: 0
-  FireFlash: {fileID: 8373936583355714054}
+  FireFlash: {fileID: 4473082484161007368}
   rigidbody: {fileID: 0}
   BotState: 0
 --- !u!114 &2837090737707810893
@@ -135,15 +136,15 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2d10cb0f196fdd4a89307cf5e64b5be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rayOrgin: {fileID: 759064209684368159}
-  playerCamera: {fileID: 5941581075523332276}
-  playerAudio: {fileID: 5941581075523332283}
+  playerCamera: {fileID: 5941581075645151880}
+  playerAudio: {fileID: 5941581075645151533}
   FireFlash: {fileID: 5342859212833722315, guid: 66a75d519a5d2ee4a92365c33329d4ca,
     type: 3}
 --- !u!114 &4556632398520770329
@@ -152,7 +153,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
@@ -173,7 +174,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e74ae8982c8dda849a24376f3c41d3b9, type: 3}
@@ -181,30 +182,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentSpeed: 4
   rayOrgin: {fileID: 759064209684368159}
-  playerCamera: {fileID: 5941581075523332276}
-  playerAudio: {fileID: 5941581075523332283}
+  playerCamera: {fileID: 5941581075645151880}
+  playerAudio: {fileID: 5941581075645151533}
   botColor: 0
-  FireFlash: {fileID: 8373936583355714054}
+  FireFlash: {fileID: 4473082484161007368}
   LaserEffect: {fileID: 5907752856185028865, guid: 6b79850dd3e1c104f8bd2d7fd3003037,
     type: 3}
   BotState: 1
+  InterpolationActive: 0
 --- !u!114 &5676528053439775305
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 695278d7f571b4c4681d17e3b7f52fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rayOrgin: {fileID: 759064209684368159}
-  playerCamera: {fileID: 5941581075523332276}
-  playerAudio: {fileID: 5941581075523332283}
+  playerCamera: {fileID: 5941581075645151880}
+  playerAudio: {fileID: 5941581075645151533}
   botColor: 0
-  FireFlash: {fileID: 8373936583355714054}
+  FireFlash: {fileID: 4473082484161007368}
   LaserEffect: {fileID: 5907752856185028865, guid: 6b79850dd3e1c104f8bd2d7fd3003037,
     type: 3}
   BotState: 1
@@ -214,7 +216,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 580c474f3ab5bae4c95f1fedaff63fbc, type: 3}
@@ -223,14 +225,14 @@ MonoBehaviour:
   rayOrgin: {fileID: 759064209684368159}
   LaserEffect: {fileID: 5907752856185028865, guid: 6b79850dd3e1c104f8bd2d7fd3003037,
     type: 3}
-  FireFlash: {fileID: 8373936583355714054}
+  FireFlash: {fileID: 4473082484161007368}
 --- !u!114 &7368830188190377659
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
@@ -253,7 +255,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6197271293009421051}
+  m_GameObject: {fileID: 5941581075645149778}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
@@ -267,7 +269,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 6200617398934531163}
+    m_TransformParent: {fileID: 5941581075645150954}
     m_Modifications:
     - target: {fileID: 1839896592272363646, guid: 66a75d519a5d2ee4a92365c33329d4ca,
         type: 3}
@@ -336,7 +338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66a75d519a5d2ee4a92365c33329d4ca, type: 3}
---- !u!198 &8373936583355714054 stripped
+--- !u!198 &4473082484161007368 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5342859212833722315, guid: 66a75d519a5d2ee4a92365c33329d4ca,
     type: 3}
@@ -435,11 +437,11 @@ PrefabInstance:
     - target: {fileID: 1864156784, guid: 95646bf2c2696dd458f22d04e32111f2, type: 3}
       propertyPath: playerCamera
       value: 
-      objectReference: {fileID: 5941581075523332276}
+      objectReference: {fileID: 5941581075645151880}
     - target: {fileID: 1864156784, guid: 95646bf2c2696dd458f22d04e32111f2, type: 3}
       propertyPath: playerAudio
       value: 
-      objectReference: {fileID: 5941581075523332283}
+      objectReference: {fileID: 5941581075645151533}
     - target: {fileID: 1864156787, guid: 95646bf2c2696dd458f22d04e32111f2, type: 3}
       propertyPath: m_IsKinematic
       value: 1
@@ -799,31 +801,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95646bf2c2696dd458f22d04e32111f2, type: 3}
---- !u!1 &6197271293009421051 stripped
+--- !u!1 &5941581075645149778 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 321336577421627895, guid: 95646bf2c2696dd458f22d04e32111f2,
     type: 3}
   m_PrefabInstance: {fileID: 5941581075645149964}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &6200653217253805591 stripped
+--- !u!4 &5941581075645150958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 322457887773883675, guid: 95646bf2c2696dd458f22d04e32111f2,
     type: 3}
   m_PrefabInstance: {fileID: 5941581075645149964}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &6200617398934531163 stripped
+--- !u!4 &5941581075645150954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 322491356605472599, guid: 95646bf2c2696dd458f22d04e32111f2,
     type: 3}
   m_PrefabInstance: {fileID: 5941581075645149964}
   m_PrefabAsset: {fileID: 0}
---- !u!20 &5941581075523332276 stripped
+--- !u!20 &5941581075645151880 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 147020728, guid: 95646bf2c2696dd458f22d04e32111f2,
     type: 3}
   m_PrefabInstance: {fileID: 5941581075645149964}
   m_PrefabAsset: {fileID: 0}
---- !u!81 &5941581075523332283 stripped
+--- !u!81 &5941581075645151533 stripped
 AudioListener:
   m_CorrespondingSourceObject: {fileID: 147020727, guid: 95646bf2c2696dd458f22d04e32111f2,
     type: 3}

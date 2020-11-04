@@ -10,6 +10,11 @@ public class ClientAdjustment
 {
     public bool AckGoodMove;
     //float DeltaTime
+
+    public float StartLocX;
+    public float StartLocY;
+    public float StartLocZ;
+
     public float NewLocX;
     public float NewLocY;
     public float NewLocZ;
@@ -22,12 +27,15 @@ public class ClientAdjustment
 
     }
 
-    public ClientAdjustment(bool ackGoodMove, Vector3 newLoc, float newRot, double timeStamp)
+    public ClientAdjustment(bool ackGoodMove, Vector3 startLoc, Vector3 newLoc, float newRot, double timeStamp)
     {
         AckGoodMove = ackGoodMove;
         NewLocX = newLoc.x;
         NewLocY = newLoc.y;
         NewLocZ = newLoc.z;
+        StartLocX = startLoc.x;
+        StartLocY = startLoc.y;
+        StartLocZ = startLoc.z;
         NewRot = newRot;
         TimeStamp = timeStamp;
     }
@@ -35,6 +43,11 @@ public class ClientAdjustment
     public Vector3 getNewLoc()
     {
         return new Vector3(NewLocX, NewLocY, NewLocZ);
+    }
+
+    public Vector3 getStartLoc()
+    {
+        return new Vector3(StartLocX, StartLocY, StartLocZ);
     }
 
     public static object Deserialize(byte[] data)

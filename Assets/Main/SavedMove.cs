@@ -31,8 +31,6 @@ public class SavedMove
         this.stand = stand;
     }
 
-
-
     public SavedMove(double timestamp, float forwardmove, float sidemove, float rotationAngle, float startRotationAngle, Vector3 postion, Vector3 startPostion, float speed, bool shooting, bool stand)
     {
         this.timestamp = timestamp;

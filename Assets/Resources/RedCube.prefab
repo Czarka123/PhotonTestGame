@@ -102,6 +102,11 @@ PrefabInstance:
       propertyPath: Synchronization
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5359288232076686903, guid: f8367c3b6df427147896f082f02129a7,
+        type: 3}
+      propertyPath: m_SynchronizeScale
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8367c3b6df427147896f082f02129a7, type: 3}
 --- !u!114 &6291597320392909890 stripped

@@ -70,7 +70,8 @@ public class PlayerController : MonoBehaviour
     [PunRPC]
     void CreateBot(string botString)
     {
-        PhotonNetwork.Instantiate(botString, Vector3.zero, Quaternion.identity);
+        //new Vector3 (0.1f,0.1f,0.1f)
+        PhotonNetwork.Instantiate(botString, Vector3.zero , Quaternion.identity);
     }
 
     [PunRPC]
@@ -125,7 +126,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.B))
             {
                 Debug.Log("Creating Bot");
-                PhotonNetwork.Instantiate("BotModel", Vector3.one, Quaternion.identity);
+                PhotonNetwork.Instantiate("YellowBotVariant", Vector3.one, Quaternion.identity);
             }
             if (Input.GetKeyUp(KeyCode.C))
             {
@@ -139,15 +140,41 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.U))
             {
                 // Debug.Log("Creating Red bot");
-                PhotonNetwork.Instantiate("GreenCube", Vector3.one, Quaternion.identity);
+                PhotonNetwork.Instantiate("GreenCube", Vector3.zero, Quaternion.identity);
 
                 photonView.RPC("CreateBot", RpcTarget.Others, "RedCube");
 
             }
+            if (Input.GetKeyUp(KeyCode.G))
+            {
+                // Debug.Log("Creating Red bot");
+                PhotonNetwork.Instantiate("GreenLocalGambetta", Vector3.zero, Quaternion.identity);
+                photonView.RPC("CreateBot", RpcTarget.Others, "TargetBotGambetta", new Vector3(20, 0.2f, 14.65f));
+                photonView.RPC("CreateBot", RpcTarget.Others, "RedServerGambetta");
 
+            }
+            if (Input.GetKeyUp(KeyCode.V))
+            {
+                // Debug.Log("Creating Red bot");
+                PhotonNetwork.Instantiate("GreenLocalValve", Vector3.zero, Quaternion.identity);
+                photonView.RPC("CreateBot", RpcTarget.Others, "TargetBotValve", new Vector3(20, 0.2f, 14.65f));
+                photonView.RPC("CreateBot", RpcTarget.Others, "RedServerValve");
 
+            }
+            if (Input.GetKeyUp(KeyCode.X))
+            {
+                // Debug.Log("Creating Red bot");
+                PhotonNetwork.Instantiate("GreenLocalValve2", Vector3.zero, Quaternion.identity);
+              //  photonView.RPC("CreateBot", RpcTarget.Others, "TargetBotValve", new Vector3(20, 0.2f, 14.65f));
+                photonView.RPC("CreateBot", RpcTarget.Others, "RedServerValve2");
 
-        }
+            }
+            if (Input.GetKeyUp(KeyCode.T))
+            {
+                Vector3 test = new Vector3(0, 0, 0.2f);
+                Debug.Log(" Vector " + test + " and it's magnitude " + test.magnitude + " distance " + Vector3.Distance(new Vector3(1.2f,0,2.1f), new Vector3(1.2f, 0, 2.3f)));
+            }
+          }
         rotation += Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rotation, 0);
 

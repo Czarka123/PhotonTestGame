@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
+//enums are used
 public enum BotColor
 {
     Green,
@@ -22,6 +23,7 @@ public enum BotState
 
 public class BotMovementv2 : MonoBehaviour, IPunObservable
 {
+    //not used for final implementation
     float speed = 4;
     float gravity = 9;
     float rtt = 0;
@@ -75,8 +77,7 @@ public class BotMovementv2 : MonoBehaviour, IPunObservable
 
         rigidbody.detectCollisions = false;
         controller.detectCollisions = false;
-        //logfile = new System.IO.StreamWriter(@"C:\Users\Godzinski\gitRepos\PhotonTestGame\Assets\csv"+botColor+"BotLogFile"+Random.Range(1,1000).ToString()+".csv");
-        //botlogfile = new System.IO.StreamWriter(@"C:\Users\Godzinski\gitRepos\PhotonTestGame\Assets\csv" + botColor + "BotLogFile" + Random.Range(1, 1000).ToString() + ".csv");
+
         // logfile.WriteLine("Second test ");
         StartTime = PhotonNetwork.Time;
         MyLocalTime = Time.realtimeSinceStartup;
@@ -402,16 +403,6 @@ public class BotMovementv2 : MonoBehaviour, IPunObservable
             Debug.Log("stream");
             if (stream.IsWriting)
             {
-
-                //int moveCount = history.Count;
-                //int firstMoveIndex = moveCount - 3;
-                //if (firstMoveIndex < 3)
-                //{
-                //    firstMoveIndex = 0;
-                //}
-
-                //for (int i = firstMoveIndex; i < history.Count; i++)
-                //{ }
                 if (history.Count>0)
                 {
                     stream.SendNext(history[history.Count - 1].moveDir);
@@ -471,19 +462,6 @@ public class BotMovementv2 : MonoBehaviour, IPunObservable
             float RTT = (float)rtt;
             float deltaTime = Time.deltaTime;
             SimulateMovement(deltaTime);
-            //while (true)
-            //{
-            //    if (RTT < deltaTime)
-            //    {
-            //        SimulateMovement(RTT);
-            //        break;
-            //    }
-            //    else
-            //    {
-            //        SimulateMovement(deltaTime);
-            //        RTT -= deltaTime;
-            //    }
-            //}
         }
 
     }

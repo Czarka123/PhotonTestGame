@@ -16,7 +16,7 @@ public struct StateMessage
     public bool left { get; set; }
     public bool jump { get; set; }
 
-    public float delivery_time;
+    public double delivery_time;
     public uint tick_number;
     //public Vector3 position;
     public float posX;

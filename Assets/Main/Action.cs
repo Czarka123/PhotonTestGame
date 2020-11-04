@@ -13,7 +13,10 @@ public class Action
     public float postionX;
     public float postionY;
     public float postionZ;
+    public float inputForward;
+    public float inputSide;
     public int sequence_number;
+    public double timestamp;
     public int animationState;
     public float rotationAngle;
     public bool shooting;
@@ -34,18 +37,46 @@ public class Action
         this.shooting = shooting;
     }
 
-    public void SetAction(Vector3 postion, int sequence_number, int animationState, float rotationAngle, bool shooting)
+    public Action(float postionX, float postionY, float postionZ, float inputForward, float inputSide, int sequence_number, double timestamp, int animationState, float rotationAngle, bool shooting)
     {
-        this.postionX = postion.x;
-        this.postionY = postion.y;
-        this.postionZ = postion.z;
+        this.postionX = postionX;
+        this.postionY = postionY;
+        this.postionZ = postionZ;
+        this.inputForward = inputForward;
+        this.inputSide = inputSide;
         this.sequence_number = sequence_number;
+        this.timestamp = timestamp;
         this.animationState = animationState;
         this.rotationAngle = rotationAngle;
         this.shooting = shooting;
     }
 
- 
+    public void SetAction(Vector3 postion, Vector3 input, int sequence_number, double timestamp, int animationState, float rotationAngle, bool shooting)
+    {
+        this.postionX = postion.x;
+        this.postionY = postion.y;
+        this.postionZ = postion.z;
+        this.inputForward = input.x;
+        this.inputSide = input.z;
+        this.sequence_number = sequence_number;
+        this.timestamp = timestamp;
+        this.animationState = animationState;
+        this.rotationAngle = rotationAngle;
+        this.shooting = shooting;
+    }
+
+
+    public Vector3 getInput()
+    {
+        return new Vector3(inputForward, 0, inputSide);
+    }
+
+    public void setInput(Vector3 newInput)
+    {
+        this.inputForward = newInput.x;     
+        this.inputSide = newInput.z;
+    }
+
     public Vector3 getPostion()
     {
         return new Vector3(postionX, postionY, postionZ);
